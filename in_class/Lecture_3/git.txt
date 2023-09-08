@@ -1,0 +1,91 @@
+=================
+LIST OF COMMANDS
+=================
+
+ls - list the items in directory
+ls -a - shows hidden folders in directory
+open .  - open the documents 
+pwd  - prints the current locaton(what directory I am now)
+cd - change directory
+cd .. -  moves backwords one folder 
+touch "filename.extention" - creates file in the current directory 
+mkdir - creates directory
+rm - deletes files FOREVER
+rm -rf - delets directory
+repo - repository 
+
+-------------------------------------------------------------------------------------------------
+
+=======================
+STEPS ON HOW TO COMMIT
+=======================
+
+1. git status - check if repo exists
+2. git init - initializes git repo
+3. git add - adds the files you want to commit
+4. git commit - m "message" - commits with custom message
+4.1 git commit -a -m "message" - adds and commits with cutom message
+5. git log - checks what has been done with the repo
+5.1 git log --oneline - only shows a single line of the commited messages 
+
+--------------------------------------------------------------------------------------------------
+
+======================
+BRANCHING AND MERGING 
+======================
+
+1. git branch - shows the current branches 
+2. git branch <branch name> - creates branch
+3. git switch <branch name> - changes from one branch to another  
+3.1. git switch -c <branch name> - creates and switches to the newly created branch
+4. git checkout <branch name> - old way to switch branches 
+5. git branch -d - deletes branch but only if you are not the the one you wanna delete 
+6. git branch -m - renames branch but only if you are in the current branch
+
+   git branch -r - lists all the branches that are tracked by git in red
+
+1. git switch master! 
+2. git merge <filename>
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------
+
+=====================
+FETCHING AND PULLING 
+=====================
+
+1. git fetch <remote> - fetches branches and history from a specific remote repo.
+2. git checkout origin/<name of the branch> - allows you to see the changes without interract with your local repo
+
+
+1. git pull origin <branch name>= git fetch + git merge ;)))
+2. git pull - remote will default to main (shorter synrax)
+
+--------------------------------------------------------------------------------------------------
+
+====================
+ADDITIONAL COMMANDS 
+====================
+
+git commit --amend - helps you recommit the last commit file 
+.gitignore - completely igones certain files 
+git diff - lists all the changes in our working directory that are NOT staged for the next commit
+git diff HEAD - lists all changes in the working tree since your last commit
+git diff --staged/--cached - lists the changes between the staging area and our last commit 
+git diff branch1..branch2 - lists the changes between the tips of the selected branches 
+git diff commit1..commit2 - provieds git diff with the commit hashes of the commits in qustion 
+git stash - saves changes that you are not yet ready to commit. You can stach changes and the come back to them
+git stash pop - removes the most recently stashed changes in your stash and re-apply them to your working copy
+git stash apply - applies whatever is stashed away, witout removing it from the stash 
+git clone <url> - retrieve the files associated with the repository and will copy them to your local machine
+git remote -v - displays a list of remotes, if you haven't added any remotes yet, you won't see anythong
+git remote add origin "link to the repo you want to push" - connects the cloud based and your local repo
+git push - pushes the files from your local machine to the cloud based one
+git clone - clones a repo from GitHub to your local machine 
+git checkout origin/main - switches to "detached head" state

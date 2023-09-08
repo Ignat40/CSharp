@@ -1,0 +1,14 @@
+/Users/ignat/Desktop/OOP/Code /Lecture_1/Intro/bin/Debug/net7.0/Lecture_1
+/Users/ignat/Desktop/OOP/Code /Lecture_1/Intro/bin/Debug/net7.0/Lecture_1.deps.json
+/Users/ignat/Desktop/OOP/Code /Lecture_1/Intro/bin/Debug/net7.0/Lecture_1.runtimeconfig.json
+/Users/ignat/Desktop/OOP/Code /Lecture_1/Intro/bin/Debug/net7.0/Lecture_1.dll
+/Users/ignat/Desktop/OOP/Code /Lecture_1/Intro/bin/Debug/net7.0/Lecture_1.pdb
+/Users/ignat/Desktop/OOP/Code /Lecture_1/Intro/obj/Debug/net7.0/Lecture_1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/OOP/Code /Lecture_1/Intro/obj/Debug/net7.0/Lecture_1.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/OOP/Code /Lecture_1/Intro/obj/Debug/net7.0/Lecture_1.AssemblyInfo.cs
+/Users/ignat/Desktop/OOP/Code /Lecture_1/Intro/obj/Debug/net7.0/Lecture_1.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/OOP/Code /Lecture_1/Intro/obj/Debug/net7.0/Lecture_1.dll
+/Users/ignat/Desktop/OOP/Code /Lecture_1/Intro/obj/Debug/net7.0/refint/Lecture_1.dll
+/Users/ignat/Desktop/OOP/Code /Lecture_1/Intro/obj/Debug/net7.0/Lecture_1.pdb
+/Users/ignat/Desktop/OOP/Code /Lecture_1/Intro/obj/Debug/net7.0/Lecture_1.genruntimeconfig.cache
+/Users/ignat/Desktop/OOP/Code /Lecture_1/Intro/obj/Debug/net7.0/ref/Lecture_1.dll
