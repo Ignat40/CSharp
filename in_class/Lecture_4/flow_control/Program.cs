@@ -1,6 +1,7 @@
 ﻿using System.Reflection.Metadata;
 using System.Runtime;
 using System.Runtime.InteropServices.Marshalling;
+using System.Threading.Channels;
 using System.Threading.Tasks.Dataflow;
 
 namespace Lecture_4
@@ -123,7 +124,7 @@ namespace Lecture_4
             
 
             ///<summery>
-            ///Problem: Simpole ATM                     |
+            ///Problem: Simple ATM                     |
             ///Write a program simulating an ATM that   |
             ///allows deposits, withdrals and  balance  | UNFINISHED 
             ///inquruees.                               |
@@ -196,7 +197,7 @@ namespace Lecture_4
             }
             Console.WriteLine("Thank you for using the ATM!")
 
-            */
+            
 
             ///<summery>
             ///Problem: Simple Quiz                     |
@@ -235,6 +236,48 @@ namespace Lecture_4
                     Console.WriteLine($"The correct answer was: {questioins.Value.ToLower()}");
                 }
             }
+            */
+
+            ///<summery>
+            /// Problelm: Simple Avg Grade Calculator
+            /// Create a program that allows the users to
+            /// intput his grades for multiple subjects.
+            /// The calculate and display the average grade.
+            ///</summery>
+            
+            List<int> grades = new();
+            int optionSelected = 0;
+            bool exit = false;
+
+            while(true)
+            {
+                Console.WriteLine("1. Add Grade.");
+                Console.WriteLine("2. Calculate Avg Grade.");
+                Console.WriteLine("3. Exit");
+                bool correctInput = int.TryParse(Console.ReadLine(), out optionSelected);
+
+                if(!correctInput)
+                {
+                    Console.WriteLine("Invalid input. Please select a number between 1 and 3.")
+                    continue;
+                }
+
+                switch(optionSelected)
+                {
+                    case 1:
+                        Console.WriteLine("How many grades you want to add? ");
+                        
+                        if(!)
+
+                    case 2:
+                        break;
+                    case 3:
+                        exit = true;
+                        break;
+                }
+            }
+
+
 
         }
     }
