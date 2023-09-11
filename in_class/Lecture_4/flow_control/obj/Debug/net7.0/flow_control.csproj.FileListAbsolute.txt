@@ -1,0 +1,14 @@
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_4/flow_control/bin/Debug/net7.0/flow_control
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_4/flow_control/bin/Debug/net7.0/flow_control.deps.json
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_4/flow_control/bin/Debug/net7.0/flow_control.runtimeconfig.json
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_4/flow_control/bin/Debug/net7.0/flow_control.dll
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_4/flow_control/bin/Debug/net7.0/flow_control.pdb
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_4/flow_control/obj/Debug/net7.0/flow_control.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_4/flow_control/obj/Debug/net7.0/flow_control.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_4/flow_control/obj/Debug/net7.0/flow_control.AssemblyInfo.cs
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_4/flow_control/obj/Debug/net7.0/flow_control.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_4/flow_control/obj/Debug/net7.0/flow_control.dll
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_4/flow_control/obj/Debug/net7.0/refint/flow_control.dll
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_4/flow_control/obj/Debug/net7.0/flow_control.pdb
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_4/flow_control/obj/Debug/net7.0/flow_control.genruntimeconfig.cache
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_4/flow_control/obj/Debug/net7.0/ref/flow_control.dll
