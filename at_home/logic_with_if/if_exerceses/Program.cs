@@ -20,7 +20,7 @@ namespace Learning_IF
             ///you win the game. Otherwise, you lose.
             ///</summer>
             
-            /*
+            
             Random dice = new Random();
             int roll_1 = dice.Next(1,7);
             int roll_2 = dice.Next(1,7);
@@ -52,7 +52,7 @@ namespace Learning_IF
                 Console.WriteLine("Nice job, you win a gum.");
             else    
                 Console.WriteLine("Sorry, You Lose...");
-            */
+            
 
             ///<summary>
             ///Exercise: Improve renewal rate of subscriptions
