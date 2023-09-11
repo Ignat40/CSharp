@@ -1,5 +1,7 @@
 ﻿using System.Reflection.Metadata;
+using System.Runtime;
 using System.Runtime.InteropServices.Marshalling;
+using System.Threading.Tasks.Dataflow;
 
 namespace Lecture_4
 {
@@ -91,7 +93,10 @@ namespace Lecture_4
                 }
 
             }    
-                */
+                
+                ///
+                /// FINISH THIS THING!
+                ///
                 string p = "";
                 bool isNull = false;
 
@@ -115,6 +120,121 @@ namespace Lecture_4
                 else
                     Console.WriteLine($"{p} is not a polindrome.");
 
+            
+
+            ///<summery>
+            ///Problem: Simpole ATM                     |
+            ///Write a program simulating an ATM that   |
+            ///allows deposits, withdrals and  balance  | UNFINISHED 
+            ///inquruees.                               |
+            ///</summery>                               |
+
+            double balance = 1000; 
+            int selectedOption = 0; 
+
+            while(true)
+            {
+                bool quit = false; 
+                double depositAmout = 0;
+                double wihtdrawalAmount = 0;
+
+                Console.WriteLine("Welcome to the OOP ATM. Choose one of the following options: ");
+                Console.WriteLine("1. Deposit.");
+                Console.WriteLine("2. Withdrawal.");
+                Console.WriteLine("3. Balance Inquiry.");
+                Console.WriteLine("4. Quit.");
+                bool correctInput = int.TryParse(Console.ReadLine(), out selectedOption);
+                
+                if(!correctInput)
+                {
+                    Console.WriteLine("Invalid input");
+                    continue;
+                }
+                switch(selectedOption)
+                {
+                    case 1:
+                        Console.WriteLine("How much money would you like to deposite?");
+                        correctInput = double.TryParse(Console.ReadLine(), out depositAmout);
+                        
+                        if(!correctInput || depositAmout < 0)
+                        {
+                            Console.WriteLine("Sorry, pal, I don't play thay way...");
+                            break;
+                        }
+
+                        balance += depositAmout; 
+
+                        break;
+
+                    case 2:
+                        Console.WriteLine("How much money would you like to withdraw?");
+                        correctInput = double.TryParse(Console.ReadLine(), out wihtdrawalAmount);
+
+                        if(!correctInput || wihtdrawalAmount < 0)
+                        {
+                            Console.WriteLine("Sorry, pal, I don't play thay way...");
+                            break;
+                        }
+
+                        balance -= wihtdrawalAmount; 
+
+                        break;
+
+                    case 3:
+                        Console.WriteLine($"Your balance is {balance.ToString()}");
+                        break;
+                    case 4:
+                        quit = true;
+                        break;
+                    default
+                        break;
+                }
+                
+
+                if(selectedOption == 4)
+                    break; 
+            }
+            Console.WriteLine("Thank you for using the ATM!")
+
+            */
+
+            ///<summery>
+            ///Problem: Simple Quiz                     |
+            ///That asks theuser questioins using dict  |  
+            ///ionraties.                               |
+            ///</summery>                               |
+
+            int score = 0; 
+            int questionValue = 5;
+
+            Dictionary<string, string> questionsAndAnswers = new()
+            {
+                {"What is 2 + 2?", "4"},
+                {"What is the capital of France?", "Paris"},
+                {"Which planet is know to be the RED PLANET?", "Mars"}
+            };
+
+            int qeustionCount = questionsAndAnswers.Count;
+            int questionsAndAnswered = 0;
+
+            foreach(var questioins in questionsAndAnswers)
+            {
+                string answer;
+                Console.WriteLine(questioins.Key);
+                answer = Console.ReadLine();
+                answer = answer?.ToLower();
+                if(answer == questioins.Value.ToLower())
+                {
+                    score += questionValue;
+                    Console.WriteLine($"Correct! You win {questionValue} points!");
+                    Console.WriteLine($"Your score is now: {score}");
+                }
+                else
+                {
+                    Console.WriteLine($"Sorry, that answer is wrong!");
+                    Console.WriteLine($"The correct answer was: {questioins.Value.ToLower()}");
+                }
+            }
 
         }
     }
