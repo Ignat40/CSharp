@@ -1,0 +1,14 @@
+/Users/ignat/Desktop/OOP/Code /at_home/logic_with_if/if_exerceses/bin/Debug/net7.0/if_exerceses
+/Users/ignat/Desktop/OOP/Code /at_home/logic_with_if/if_exerceses/bin/Debug/net7.0/if_exerceses.deps.json
+/Users/ignat/Desktop/OOP/Code /at_home/logic_with_if/if_exerceses/bin/Debug/net7.0/if_exerceses.runtimeconfig.json
+/Users/ignat/Desktop/OOP/Code /at_home/logic_with_if/if_exerceses/bin/Debug/net7.0/if_exerceses.dll
+/Users/ignat/Desktop/OOP/Code /at_home/logic_with_if/if_exerceses/bin/Debug/net7.0/if_exerceses.pdb
+/Users/ignat/Desktop/OOP/Code /at_home/logic_with_if/if_exerceses/obj/Debug/net7.0/if_exerceses.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/OOP/Code /at_home/logic_with_if/if_exerceses/obj/Debug/net7.0/if_exerceses.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/OOP/Code /at_home/logic_with_if/if_exerceses/obj/Debug/net7.0/if_exerceses.AssemblyInfo.cs
+/Users/ignat/Desktop/OOP/Code /at_home/logic_with_if/if_exerceses/obj/Debug/net7.0/if_exerceses.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/OOP/Code /at_home/logic_with_if/if_exerceses/obj/Debug/net7.0/if_exerceses.dll
+/Users/ignat/Desktop/OOP/Code /at_home/logic_with_if/if_exerceses/obj/Debug/net7.0/refint/if_exerceses.dll
+/Users/ignat/Desktop/OOP/Code /at_home/logic_with_if/if_exerceses/obj/Debug/net7.0/if_exerceses.pdb
+/Users/ignat/Desktop/OOP/Code /at_home/logic_with_if/if_exerceses/obj/Debug/net7.0/if_exerceses.genruntimeconfig.cache
+/Users/ignat/Desktop/OOP/Code /at_home/logic_with_if/if_exerceses/obj/Debug/net7.0/ref/if_exerceses.dll

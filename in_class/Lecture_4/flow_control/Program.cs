@@ -258,7 +258,7 @@ namespace Lecture_4
 
                 if(!correctInput)
                 {
-                    Console.WriteLine("Invalid input. Please select a number between 1 and 3.")
+                    Console.WriteLine("Invalid input. Please select a number between 1 and 3.");
                     continue;
                 }
 
