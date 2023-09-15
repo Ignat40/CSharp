@@ -1,0 +1,14 @@
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5/logic_task/logic_task/bin/Debug/net7.0/logic_task
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5/logic_task/logic_task/bin/Debug/net7.0/logic_task.deps.json
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5/logic_task/logic_task/bin/Debug/net7.0/logic_task.runtimeconfig.json
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5/logic_task/logic_task/bin/Debug/net7.0/logic_task.dll
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5/logic_task/logic_task/bin/Debug/net7.0/logic_task.pdb
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5/logic_task/logic_task/obj/Debug/net7.0/logic_task.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5/logic_task/logic_task/obj/Debug/net7.0/logic_task.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5/logic_task/logic_task/obj/Debug/net7.0/logic_task.AssemblyInfo.cs
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5/logic_task/logic_task/obj/Debug/net7.0/logic_task.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5/logic_task/logic_task/obj/Debug/net7.0/logic_task.dll
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5/logic_task/logic_task/obj/Debug/net7.0/refint/logic_task.dll
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5/logic_task/logic_task/obj/Debug/net7.0/logic_task.pdb
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5/logic_task/logic_task/obj/Debug/net7.0/logic_task.genruntimeconfig.cache
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5/logic_task/logic_task/obj/Debug/net7.0/ref/logic_task.dll

@@ -1,0 +1,14 @@
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5/MS_Task/Coin_Flip/bin/Debug/net7.0/Coin_Flip
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5/MS_Task/Coin_Flip/bin/Debug/net7.0/Coin_Flip.deps.json
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5/MS_Task/Coin_Flip/bin/Debug/net7.0/Coin_Flip.runtimeconfig.json
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5/MS_Task/Coin_Flip/bin/Debug/net7.0/Coin_Flip.dll
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5/MS_Task/Coin_Flip/bin/Debug/net7.0/Coin_Flip.pdb
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5/MS_Task/Coin_Flip/obj/Debug/net7.0/Coin_Flip.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5/MS_Task/Coin_Flip/obj/Debug/net7.0/Coin_Flip.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5/MS_Task/Coin_Flip/obj/Debug/net7.0/Coin_Flip.AssemblyInfo.cs
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5/MS_Task/Coin_Flip/obj/Debug/net7.0/Coin_Flip.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5/MS_Task/Coin_Flip/obj/Debug/net7.0/Coin_Flip.dll
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5/MS_Task/Coin_Flip/obj/Debug/net7.0/refint/Coin_Flip.dll
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5/MS_Task/Coin_Flip/obj/Debug/net7.0/Coin_Flip.pdb
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5/MS_Task/Coin_Flip/obj/Debug/net7.0/Coin_Flip.genruntimeconfig.cache
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5/MS_Task/Coin_Flip/obj/Debug/net7.0/ref/Coin_Flip.dll

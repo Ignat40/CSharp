@@ -1,0 +1,14 @@
+/Users/ignat/Desktop/OOP/Code /at_home/logic_with_if/quadratic_equation/QuadEQ/bin/Debug/net7.0/QuadEQ
+/Users/ignat/Desktop/OOP/Code /at_home/logic_with_if/quadratic_equation/QuadEQ/bin/Debug/net7.0/QuadEQ.deps.json
+/Users/ignat/Desktop/OOP/Code /at_home/logic_with_if/quadratic_equation/QuadEQ/bin/Debug/net7.0/QuadEQ.runtimeconfig.json
+/Users/ignat/Desktop/OOP/Code /at_home/logic_with_if/quadratic_equation/QuadEQ/bin/Debug/net7.0/QuadEQ.dll
+/Users/ignat/Desktop/OOP/Code /at_home/logic_with_if/quadratic_equation/QuadEQ/bin/Debug/net7.0/QuadEQ.pdb
+/Users/ignat/Desktop/OOP/Code /at_home/logic_with_if/quadratic_equation/QuadEQ/obj/Debug/net7.0/QuadEQ.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/OOP/Code /at_home/logic_with_if/quadratic_equation/QuadEQ/obj/Debug/net7.0/QuadEQ.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/OOP/Code /at_home/logic_with_if/quadratic_equation/QuadEQ/obj/Debug/net7.0/QuadEQ.AssemblyInfo.cs
+/Users/ignat/Desktop/OOP/Code /at_home/logic_with_if/quadratic_equation/QuadEQ/obj/Debug/net7.0/QuadEQ.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/OOP/Code /at_home/logic_with_if/quadratic_equation/QuadEQ/obj/Debug/net7.0/QuadEQ.dll
+/Users/ignat/Desktop/OOP/Code /at_home/logic_with_if/quadratic_equation/QuadEQ/obj/Debug/net7.0/refint/QuadEQ.dll
+/Users/ignat/Desktop/OOP/Code /at_home/logic_with_if/quadratic_equation/QuadEQ/obj/Debug/net7.0/QuadEQ.pdb
+/Users/ignat/Desktop/OOP/Code /at_home/logic_with_if/quadratic_equation/QuadEQ/obj/Debug/net7.0/QuadEQ.genruntimeconfig.cache
+/Users/ignat/Desktop/OOP/Code /at_home/logic_with_if/quadratic_equation/QuadEQ/obj/Debug/net7.0/ref/QuadEQ.dll

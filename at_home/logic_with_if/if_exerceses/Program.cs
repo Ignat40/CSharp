@@ -1,4 +1,6 @@
 ﻿using System;
+using System.ComponentModel;
+using System.Globalization;
 using System.Xml.Schema;
 
 namespace Learning_IF
@@ -7,6 +9,8 @@ namespace Learning_IF
     {
         static void Main()
         {
+
+        /*
             ///<summery>
             ///Probelm: Three Rolling Dice!
             ///Create a program that rolls 
@@ -88,8 +92,45 @@ namespace Learning_IF
                 Console.WriteLine("Your subsciption has expired. Please renew...");
             else
                 Console.WriteLine("-");
-                
+        
+            ///Problem: Leap Year
+            ///It's classic and pretty
+            ///self-explanitory.
+            ///</summery>
 
-        }
+            Console.WriteLine("Enter a year to check if it is leap: ");
+            int year = Convert.ToInt32(Console.ReadLine());
+
+            if(year % 400 == 0)
+            {
+                Console.WriteLine($"The year {year} is Leap!");
+            }
+            else if(year % 4 == 0 && year % 100 != 0)
+            {
+                 Console.WriteLine($"The year {year} is Leap!");
+            }
+            else
+                Console.WriteLine($"The year {year} is not leap...");
+
+            */
+
+            ///<summary>
+            ///Problem: Does it contain 3?
+            ///</summery>
+
+
+            Console.WriteLine("Enter a number to see if it contains three: ");
+            int three = Convert.ToInt32(Console.ReadLine());
+
+            while(three > 0)
+            { 
+                if(three % 10 == 3)
+                    Console.WriteLine("It contains 3!");
+                else
+                    Console.WriteLine("It doesn't contain 3...");
+            }
+
+
+        }   
     }
 }
