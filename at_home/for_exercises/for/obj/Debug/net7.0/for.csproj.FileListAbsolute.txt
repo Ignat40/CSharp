@@ -1,0 +1,14 @@
+/Users/ignat/Desktop/OOP/Code /at_home/for_exercises/for/bin/Debug/net7.0/for
+/Users/ignat/Desktop/OOP/Code /at_home/for_exercises/for/bin/Debug/net7.0/for.deps.json
+/Users/ignat/Desktop/OOP/Code /at_home/for_exercises/for/bin/Debug/net7.0/for.runtimeconfig.json
+/Users/ignat/Desktop/OOP/Code /at_home/for_exercises/for/bin/Debug/net7.0/for.dll
+/Users/ignat/Desktop/OOP/Code /at_home/for_exercises/for/bin/Debug/net7.0/for.pdb
+/Users/ignat/Desktop/OOP/Code /at_home/for_exercises/for/obj/Debug/net7.0/for.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/OOP/Code /at_home/for_exercises/for/obj/Debug/net7.0/for.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/OOP/Code /at_home/for_exercises/for/obj/Debug/net7.0/for.AssemblyInfo.cs
+/Users/ignat/Desktop/OOP/Code /at_home/for_exercises/for/obj/Debug/net7.0/for.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/OOP/Code /at_home/for_exercises/for/obj/Debug/net7.0/for.dll
+/Users/ignat/Desktop/OOP/Code /at_home/for_exercises/for/obj/Debug/net7.0/refint/for.dll
+/Users/ignat/Desktop/OOP/Code /at_home/for_exercises/for/obj/Debug/net7.0/for.pdb
+/Users/ignat/Desktop/OOP/Code /at_home/for_exercises/for/obj/Debug/net7.0/for.genruntimeconfig.cache
+/Users/ignat/Desktop/OOP/Code /at_home/for_exercises/for/obj/Debug/net7.0/ref/for.dll
