@@ -1,0 +1,14 @@
+/Users/ignat/Desktop/OOP/Code /at_home/while_exercises/while/bin/Debug/net7.0/while
+/Users/ignat/Desktop/OOP/Code /at_home/while_exercises/while/bin/Debug/net7.0/while.deps.json
+/Users/ignat/Desktop/OOP/Code /at_home/while_exercises/while/bin/Debug/net7.0/while.runtimeconfig.json
+/Users/ignat/Desktop/OOP/Code /at_home/while_exercises/while/bin/Debug/net7.0/while.dll
+/Users/ignat/Desktop/OOP/Code /at_home/while_exercises/while/bin/Debug/net7.0/while.pdb
+/Users/ignat/Desktop/OOP/Code /at_home/while_exercises/while/obj/Debug/net7.0/while.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/OOP/Code /at_home/while_exercises/while/obj/Debug/net7.0/while.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/OOP/Code /at_home/while_exercises/while/obj/Debug/net7.0/while.AssemblyInfo.cs
+/Users/ignat/Desktop/OOP/Code /at_home/while_exercises/while/obj/Debug/net7.0/while.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/OOP/Code /at_home/while_exercises/while/obj/Debug/net7.0/while.dll
+/Users/ignat/Desktop/OOP/Code /at_home/while_exercises/while/obj/Debug/net7.0/refint/while.dll
+/Users/ignat/Desktop/OOP/Code /at_home/while_exercises/while/obj/Debug/net7.0/while.pdb
+/Users/ignat/Desktop/OOP/Code /at_home/while_exercises/while/obj/Debug/net7.0/while.genruntimeconfig.cache
+/Users/ignat/Desktop/OOP/Code /at_home/while_exercises/while/obj/Debug/net7.0/ref/while.dll
