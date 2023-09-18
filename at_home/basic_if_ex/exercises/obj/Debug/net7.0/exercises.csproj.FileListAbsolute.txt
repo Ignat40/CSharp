@@ -1,0 +1,14 @@
+/Users/ignat/Desktop/OOP/Code /at_home/basic_if_ex/exercises/bin/Debug/net7.0/exercises
+/Users/ignat/Desktop/OOP/Code /at_home/basic_if_ex/exercises/bin/Debug/net7.0/exercises.deps.json
+/Users/ignat/Desktop/OOP/Code /at_home/basic_if_ex/exercises/bin/Debug/net7.0/exercises.runtimeconfig.json
+/Users/ignat/Desktop/OOP/Code /at_home/basic_if_ex/exercises/bin/Debug/net7.0/exercises.dll
+/Users/ignat/Desktop/OOP/Code /at_home/basic_if_ex/exercises/bin/Debug/net7.0/exercises.pdb
+/Users/ignat/Desktop/OOP/Code /at_home/basic_if_ex/exercises/obj/Debug/net7.0/exercises.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/OOP/Code /at_home/basic_if_ex/exercises/obj/Debug/net7.0/exercises.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/OOP/Code /at_home/basic_if_ex/exercises/obj/Debug/net7.0/exercises.AssemblyInfo.cs
+/Users/ignat/Desktop/OOP/Code /at_home/basic_if_ex/exercises/obj/Debug/net7.0/exercises.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/OOP/Code /at_home/basic_if_ex/exercises/obj/Debug/net7.0/exercises.dll
+/Users/ignat/Desktop/OOP/Code /at_home/basic_if_ex/exercises/obj/Debug/net7.0/refint/exercises.dll
+/Users/ignat/Desktop/OOP/Code /at_home/basic_if_ex/exercises/obj/Debug/net7.0/exercises.pdb
+/Users/ignat/Desktop/OOP/Code /at_home/basic_if_ex/exercises/obj/Debug/net7.0/exercises.genruntimeconfig.cache
+/Users/ignat/Desktop/OOP/Code /at_home/basic_if_ex/exercises/obj/Debug/net7.0/ref/exercises.dll
