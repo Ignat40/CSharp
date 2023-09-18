@@ -1,0 +1,14 @@
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5.1/loops/bin/Debug/net7.0/loops
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5.1/loops/bin/Debug/net7.0/loops.deps.json
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5.1/loops/bin/Debug/net7.0/loops.runtimeconfig.json
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5.1/loops/bin/Debug/net7.0/loops.dll
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5.1/loops/bin/Debug/net7.0/loops.pdb
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5.1/loops/obj/Debug/net7.0/loops.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5.1/loops/obj/Debug/net7.0/loops.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5.1/loops/obj/Debug/net7.0/loops.AssemblyInfo.cs
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5.1/loops/obj/Debug/net7.0/loops.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5.1/loops/obj/Debug/net7.0/loops.dll
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5.1/loops/obj/Debug/net7.0/refint/loops.dll
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5.1/loops/obj/Debug/net7.0/loops.pdb
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5.1/loops/obj/Debug/net7.0/loops.genruntimeconfig.cache
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_5.1/loops/obj/Debug/net7.0/ref/loops.dll
