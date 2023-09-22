@@ -1,0 +1,14 @@
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_6/lesson/bin/Debug/net7.0/lesson
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_6/lesson/bin/Debug/net7.0/lesson.deps.json
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_6/lesson/bin/Debug/net7.0/lesson.runtimeconfig.json
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_6/lesson/bin/Debug/net7.0/lesson.dll
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_6/lesson/bin/Debug/net7.0/lesson.pdb
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_6/lesson/obj/Debug/net7.0/lesson.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_6/lesson/obj/Debug/net7.0/lesson.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_6/lesson/obj/Debug/net7.0/lesson.AssemblyInfo.cs
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_6/lesson/obj/Debug/net7.0/lesson.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_6/lesson/obj/Debug/net7.0/lesson.dll
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_6/lesson/obj/Debug/net7.0/refint/lesson.dll
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_6/lesson/obj/Debug/net7.0/lesson.pdb
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_6/lesson/obj/Debug/net7.0/lesson.genruntimeconfig.cache
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_6/lesson/obj/Debug/net7.0/ref/lesson.dll
