@@ -5,6 +5,16 @@ namespace Basics
 {
     class Program
     {
+
+        /// <summary>
+        /// Special characters while typing the output of a program: 
+        /// 1. \n - new line
+        /// 2. \t - adds tab
+        /// 3. \" - inserts quotation marks
+        /// 4. \\ - allows you to use the "\"
+        /// 5. @"" - keeps the whitespace as written 
+        /// 
+        /// </summary>
         public static void Main()
         {
         /*
