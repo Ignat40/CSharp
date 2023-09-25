@@ -11,7 +11,7 @@ namespace Practice
     {
         public static void Main()
         {
-            CombineDigits();
+            TempConverter();
         }
 
         public static void guessTheNumber()
@@ -64,36 +64,56 @@ namespace Practice
         {
         //------------------------- Ex. 2 -------------------------\\
 
-        int temp = 0;
-        int sum = 0;
+            int temp = 0;
+            int sum = 0;
 
-        Console.WriteLine("This program will sum the digits of the number you enter!");
+            Console.WriteLine("This program will sum the digits of the number you enter!");
+
+            while(true)
+            {
+                Console.WriteLine("Enter your number: ");
+
+                if(int.TryParse(Console.ReadLine(), out int number) && number > 0)
+                {
+                    while(number > 0)
+                    {
+                        temp = number % 10;
+                        sum += temp;
+                        number /= 10;
+                    }
+                    Console.WriteLine($"Sum: {sum}");
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Invalid input. Try again! \n");
+                    continue;
+                }
+            }
+        }
+
+        public static void TempConverter()
+        {
+        //------------------------- Ex. 3 -------------------------\\
+
+        Console.WriteLine("This application will convert degrees of your choice! \n");
+        Console.WriteLine(@"Choose either one of the following options:
+        1. C to F              2. F to C");
 
         while(true)
         {
-            Console.WriteLine("Enter your number: ");
-
-            if(int.TryParse(Console.ReadLine(), out int number) && number > 0)
+            if(!int.TryParse(Console.ReadLine(), out int input) && 
+                input <=0 && input > 2)
             {
-                while(number > 0)
-                {
-                    temp = number % 10;
-                    sum += temp;
-                    number /= 10;
-                }
-                Console.WriteLine($"Sum: {sum}");
-                break;
+                Console.WriteLine("Invalid input...\tTry again: ");
+                continue;
             }
             else
             {
-                Console.WriteLine("Invalid input. Try again! \n");
-                continue;
+                break;
             }
         }
-        
-
 
         }
-
     }
 }
