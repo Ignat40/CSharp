@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Data;
 using System.Diagnostics.Contracts;
 using System.Net.Sockets;
@@ -11,7 +12,7 @@ namespace Practice
     {
         public static void Main()
         {
-            TempConverter();
+            Palindrome();
         }
 
         public static void guessTheNumber()
@@ -95,25 +96,98 @@ namespace Practice
         public static void TempConverter()
         {
         //------------------------- Ex. 3 -------------------------\\
+            double userInput;
+            Console.WriteLine("This application will convert degrees of your choice! \n");
 
-        Console.WriteLine("This application will convert degrees of your choice! \n");
-        Console.WriteLine(@"Choose either one of the following options:
-        1. C to F              2. F to C");
+            while(true)
+            {
+                Console.WriteLine("1. Celsius to Farenheit");
+                Console.WriteLine("2. Farenheit to Celsius");
 
-        while(true)
+                if(!int.TryParse(Console.ReadLine(), out int input) && 
+                    input <=0 && input > 2)
+                {
+                    Console.WriteLine("Invalid input...\tTry again: ");
+                    continue;
+                }
+                if(input == 1)
+                {
+                    Console.WriteLine("Enter degree in Celsius: ");
+                    userInput = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine($"In Farenheit: {(userInput * 1.8)+32}");
+                    break;
+                }
+                else if(input == 2)
+                {
+                    Console.WriteLine("Enter degree in Farenheit: ");
+                    userInput = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine($"In Celsius: {(userInput / 1.8)-32}");
+                    break;
+                }
+                else
+                {
+                    break;
+                }
+            }            
+
+        }
+
+        public static void Fibonacci()
         {
-            if(!int.TryParse(Console.ReadLine(), out int input) && 
-                input <=0 && input > 2)
+        //------------------------- Ex. 4 -------------------------\\
+
+            Console.WriteLine("Fibbonaci numbers!");
+
+            int limit = Convert.ToInt32(Console.ReadLine());
+            int previous = 0;
+            int current = 1;
+
+            for(int i = 0; i <= limit; i++)
             {
-                Console.WriteLine("Invalid input...\tTry again: ");
-                continue;
+                int next = previous + current;
+                previous = current;
+                current = next;
+
+                Console.WriteLine(next);
             }
-            else
-            {
-                break;
-            }
-        }
 
         }
+
+        public static void ReverseString()
+        {
+        //------------------------- Ex. 5 -------------------------\\
+
+            Console.WriteLine("Enter string to reverse: ");
+            string strToEnter = Console.ReadLine();
+            char[] charArray = strToEnter.ToCharArray();
+            string strToReverse = string.Empty;
+
+            for(int i = charArray.Length - 1; i > -1; i--)
+            {
+                strToReverse += charArray[i];
+            }
+
+            Console.WriteLine($"{strToEnter} reversed is: {strToReverse}");
+        }
+
+        public static void Palindrome()
+        {
+        //------------------------- Ex. 6 -------------------------\\
+            Console.WriteLine("Write string to check is palindrome: ");
+            string input = Console.ReadLine();
+            char[] charArray = input.ToCharArray();
+            string revresed = string.Empty;
+
+            for(int i = charArray.Length -1; i > -1; i--)
+            {
+                revresed += charArray[i];
+            }
+
+            if(revresed == input)
+                Console.WriteLine($"{input} is palindrome!");
+            else
+                Console.WriteLine($"{input} is NOT palindrome!");
+        }
+
     }
 }
