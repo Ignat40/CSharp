@@ -1,0 +1,14 @@
+/Users/ignat/Desktop/OOP/Code /at_home/rockPaperScissors/rps/bin/Debug/net7.0/rps
+/Users/ignat/Desktop/OOP/Code /at_home/rockPaperScissors/rps/bin/Debug/net7.0/rps.deps.json
+/Users/ignat/Desktop/OOP/Code /at_home/rockPaperScissors/rps/bin/Debug/net7.0/rps.runtimeconfig.json
+/Users/ignat/Desktop/OOP/Code /at_home/rockPaperScissors/rps/bin/Debug/net7.0/rps.dll
+/Users/ignat/Desktop/OOP/Code /at_home/rockPaperScissors/rps/bin/Debug/net7.0/rps.pdb
+/Users/ignat/Desktop/OOP/Code /at_home/rockPaperScissors/rps/obj/Debug/net7.0/rps.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/OOP/Code /at_home/rockPaperScissors/rps/obj/Debug/net7.0/rps.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/OOP/Code /at_home/rockPaperScissors/rps/obj/Debug/net7.0/rps.AssemblyInfo.cs
+/Users/ignat/Desktop/OOP/Code /at_home/rockPaperScissors/rps/obj/Debug/net7.0/rps.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/OOP/Code /at_home/rockPaperScissors/rps/obj/Debug/net7.0/rps.dll
+/Users/ignat/Desktop/OOP/Code /at_home/rockPaperScissors/rps/obj/Debug/net7.0/refint/rps.dll
+/Users/ignat/Desktop/OOP/Code /at_home/rockPaperScissors/rps/obj/Debug/net7.0/rps.pdb
+/Users/ignat/Desktop/OOP/Code /at_home/rockPaperScissors/rps/obj/Debug/net7.0/rps.genruntimeconfig.cache
+/Users/ignat/Desktop/OOP/Code /at_home/rockPaperScissors/rps/obj/Debug/net7.0/ref/rps.dll
