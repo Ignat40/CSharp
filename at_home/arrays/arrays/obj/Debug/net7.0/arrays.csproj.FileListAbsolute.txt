@@ -1,0 +1,14 @@
+/Users/ignat/Desktop/OOP/Code /at_home/arrays/arrays/bin/Debug/net7.0/arrays
+/Users/ignat/Desktop/OOP/Code /at_home/arrays/arrays/bin/Debug/net7.0/arrays.deps.json
+/Users/ignat/Desktop/OOP/Code /at_home/arrays/arrays/bin/Debug/net7.0/arrays.runtimeconfig.json
+/Users/ignat/Desktop/OOP/Code /at_home/arrays/arrays/bin/Debug/net7.0/arrays.dll
+/Users/ignat/Desktop/OOP/Code /at_home/arrays/arrays/bin/Debug/net7.0/arrays.pdb
+/Users/ignat/Desktop/OOP/Code /at_home/arrays/arrays/obj/Debug/net7.0/arrays.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/OOP/Code /at_home/arrays/arrays/obj/Debug/net7.0/arrays.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/OOP/Code /at_home/arrays/arrays/obj/Debug/net7.0/arrays.AssemblyInfo.cs
+/Users/ignat/Desktop/OOP/Code /at_home/arrays/arrays/obj/Debug/net7.0/arrays.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/OOP/Code /at_home/arrays/arrays/obj/Debug/net7.0/arrays.dll
+/Users/ignat/Desktop/OOP/Code /at_home/arrays/arrays/obj/Debug/net7.0/refint/arrays.dll
+/Users/ignat/Desktop/OOP/Code /at_home/arrays/arrays/obj/Debug/net7.0/arrays.pdb
+/Users/ignat/Desktop/OOP/Code /at_home/arrays/arrays/obj/Debug/net7.0/arrays.genruntimeconfig.cache
+/Users/ignat/Desktop/OOP/Code /at_home/arrays/arrays/obj/Debug/net7.0/ref/arrays.dll
