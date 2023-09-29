@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics.Contracts;
-using System.Net.NetworkInformation;
-using System.Reflection;
-using System.Reflection.PortableExecutable;
+using System.Linq;
 
 namespace Arrays
 {
@@ -14,7 +10,11 @@ namespace Arrays
             //Lists();
             //Arr();
             //SumOfElemnts();
+            //AvgOfArray();
             //MaxValue();
+            //SecondMaxValue();
+            //FindMissing();
+            //FindIfDuplicates();
             RemoveDuplicates();
         }
 
@@ -106,9 +106,27 @@ namespace Arrays
 
         }
 
+        public static void AvgOfArray()
+        {
+            //------------------------ Ex. 2 ------------------------\\
+
+            int[] avgArr = {3, 56, 97, 43, 25, 72, 74, 40, 82, 84, 24, 51, 28, 87, 81};
+            double sum = 0;
+            double avg = 0;
+            for (int i = 0; i < avgArr.Length; i++)
+            {
+                sum += avgArr[i];
+                avg = sum / avgArr.Length;
+
+            }
+
+            Console.WriteLine($"The average is: {avg}");
+
+        }
+
         public static void MaxValue()
         {
-            //------------------------ Ex. 1 ------------------------\\
+            //------------------------ Ex. 3 ------------------------\\
 
             int[] arr = {12, 5, 23, 8, 17, 40, 3};
             int max = arr[0]; 
@@ -123,20 +141,89 @@ namespace Arrays
 
         }
 
-        public static void RemoveDuplicates()
+        public static void SecondMaxValue()
         {
-            //------------------------ Ex. 1 ------------------------\\
+            //------------------------ Ex. 4 ------------------------\\
 
-            int[] duplicatesArray = {12, 32, 12, 58, 3, 5, 28, 2, 12, 58, 2};
-            int[] neww = duplicatesArray.Distinct().ToArray();
-            Console.WriteLine(neww);
-            int duplicate;
-            bool isFound = false;
+            int[] arr = {13, 17, 85, 49, 66, 25, 46, 65, 4, 23, 3, 71, 44, 12, 50, 62, 33, 82, 47, 36};
+            int max = arr[0]; 
+            int secondBiggest = arr[0];
 
-           
-        
-        
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if(arr[i] > max)
+                    max = arr[i];
+                else if(secondBiggest < arr[i] && secondBiggest < max)
+                    secondBiggest = arr[i];
+                    
+            }
+            Console.WriteLine($"The second max values is: {secondBiggest}");
+
         }
 
+        public static void FindMissing()
+        {
+            //------------------------ Ex. 5 ------------------------\\
+
+            int[] arrToFind = {68, 65, 30, 87, 21, 17, 96, 70, 64, 34, 14, 90, 86, 31, 29, 40};
+            bool isFound = false;
+
+            Console.WriteLine("Looking for number: ");
+            if(int.TryParse(Console.ReadLine(), out int input))
+            {
+                for (int i = 0; i < arrToFind.Length; i++)
+                {
+                    if(input == arrToFind[i])
+                        isFound = true;
+                }
+            }
+            else
+            {
+                Console.WriteLine("Couldn't covert. Please run again...");
+            }
+
+            if(isFound)
+                Console.WriteLine($"The list contains number {input}");
+            else    
+                Console.WriteLine($"Not found...");
+
+        }
+
+
+        public static void FindIfDuplicates()
+        {
+            //------------------------ Ex. 6 ------------------------\\
+
+            int[] duplicatesArray = {1, 2, 3, 4, 5, 6, 6, 7, 8, 9};
+            bool isFound = false;
+            int duplicate = duplicatesArray[0];
+
+            for (int i = 0; i < duplicatesArray.Length; i++)
+            {
+                for (int j = 1; j < duplicatesArray.Length; j++)
+                {
+                    if(i != j && duplicatesArray[i] == duplicatesArray[j])
+                        isFound = true;                   
+                }
+            }
+
+            if(isFound)
+                Console.WriteLine("Duplicates found!");
+            else
+                Console.WriteLine("Free of duplciates!");
+           
+        }
+        
+        public static void RemoveDuplicates()
+        {
+            //------------------------ Ex. 7 ------------------------\\
+
+            int[] duplicatesArray = {1, 2, 3, 4, 5, 6, 6,6,6,6,6,6,6,6, 7, 8, 9};
+            int[] freeOfDuplicates = duplicatesArray.Distinct().ToArray();
+            for (int i = 0; i < freeOfDuplicates.Length; i++)
+            {
+                Console.WriteLine(i);
+            }
+        }
     }
 }
