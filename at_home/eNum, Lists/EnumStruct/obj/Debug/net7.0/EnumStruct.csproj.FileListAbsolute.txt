@@ -1,0 +1,14 @@
+/Users/ignat/Desktop/OOP/Code /at_home/eNum, Lists/EnumStruct/bin/Debug/net7.0/EnumStruct
+/Users/ignat/Desktop/OOP/Code /at_home/eNum, Lists/EnumStruct/bin/Debug/net7.0/EnumStruct.deps.json
+/Users/ignat/Desktop/OOP/Code /at_home/eNum, Lists/EnumStruct/bin/Debug/net7.0/EnumStruct.runtimeconfig.json
+/Users/ignat/Desktop/OOP/Code /at_home/eNum, Lists/EnumStruct/bin/Debug/net7.0/EnumStruct.dll
+/Users/ignat/Desktop/OOP/Code /at_home/eNum, Lists/EnumStruct/bin/Debug/net7.0/EnumStruct.pdb
+/Users/ignat/Desktop/OOP/Code /at_home/eNum, Lists/EnumStruct/obj/Debug/net7.0/EnumStruct.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/OOP/Code /at_home/eNum, Lists/EnumStruct/obj/Debug/net7.0/EnumStruct.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/OOP/Code /at_home/eNum, Lists/EnumStruct/obj/Debug/net7.0/EnumStruct.AssemblyInfo.cs
+/Users/ignat/Desktop/OOP/Code /at_home/eNum, Lists/EnumStruct/obj/Debug/net7.0/EnumStruct.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/OOP/Code /at_home/eNum, Lists/EnumStruct/obj/Debug/net7.0/EnumStruct.dll
+/Users/ignat/Desktop/OOP/Code /at_home/eNum, Lists/EnumStruct/obj/Debug/net7.0/refint/EnumStruct.dll
+/Users/ignat/Desktop/OOP/Code /at_home/eNum, Lists/EnumStruct/obj/Debug/net7.0/EnumStruct.pdb
+/Users/ignat/Desktop/OOP/Code /at_home/eNum, Lists/EnumStruct/obj/Debug/net7.0/EnumStruct.genruntimeconfig.cache
+/Users/ignat/Desktop/OOP/Code /at_home/eNum, Lists/EnumStruct/obj/Debug/net7.0/ref/EnumStruct.dll
