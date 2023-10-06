@@ -1,0 +1,14 @@
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_8.1/Lists/bin/Debug/net7.0/Lists
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_8.1/Lists/bin/Debug/net7.0/Lists.deps.json
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_8.1/Lists/bin/Debug/net7.0/Lists.runtimeconfig.json
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_8.1/Lists/bin/Debug/net7.0/Lists.dll
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_8.1/Lists/bin/Debug/net7.0/Lists.pdb
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_8.1/Lists/obj/Debug/net7.0/Lists.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_8.1/Lists/obj/Debug/net7.0/Lists.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_8.1/Lists/obj/Debug/net7.0/Lists.AssemblyInfo.cs
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_8.1/Lists/obj/Debug/net7.0/Lists.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_8.1/Lists/obj/Debug/net7.0/Lists.dll
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_8.1/Lists/obj/Debug/net7.0/refint/Lists.dll
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_8.1/Lists/obj/Debug/net7.0/Lists.pdb
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_8.1/Lists/obj/Debug/net7.0/Lists.genruntimeconfig.cache
+/Users/ignat/Desktop/OOP/Code /in_class/Lecture_8.1/Lists/obj/Debug/net7.0/ref/Lists.dll
