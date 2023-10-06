@@ -1,0 +1,14 @@
+/Users/ignat/Desktop/OOP/Code /at_home/foreach_exercises/foreach/bin/Debug/net7.0/foreach
+/Users/ignat/Desktop/OOP/Code /at_home/foreach_exercises/foreach/bin/Debug/net7.0/foreach.deps.json
+/Users/ignat/Desktop/OOP/Code /at_home/foreach_exercises/foreach/bin/Debug/net7.0/foreach.runtimeconfig.json
+/Users/ignat/Desktop/OOP/Code /at_home/foreach_exercises/foreach/bin/Debug/net7.0/foreach.dll
+/Users/ignat/Desktop/OOP/Code /at_home/foreach_exercises/foreach/bin/Debug/net7.0/foreach.pdb
+/Users/ignat/Desktop/OOP/Code /at_home/foreach_exercises/foreach/obj/Debug/net7.0/foreach.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/OOP/Code /at_home/foreach_exercises/foreach/obj/Debug/net7.0/foreach.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/OOP/Code /at_home/foreach_exercises/foreach/obj/Debug/net7.0/foreach.AssemblyInfo.cs
+/Users/ignat/Desktop/OOP/Code /at_home/foreach_exercises/foreach/obj/Debug/net7.0/foreach.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/OOP/Code /at_home/foreach_exercises/foreach/obj/Debug/net7.0/foreach.dll
+/Users/ignat/Desktop/OOP/Code /at_home/foreach_exercises/foreach/obj/Debug/net7.0/refint/foreach.dll
+/Users/ignat/Desktop/OOP/Code /at_home/foreach_exercises/foreach/obj/Debug/net7.0/foreach.pdb
+/Users/ignat/Desktop/OOP/Code /at_home/foreach_exercises/foreach/obj/Debug/net7.0/foreach.genruntimeconfig.cache
+/Users/ignat/Desktop/OOP/Code /at_home/foreach_exercises/foreach/obj/Debug/net7.0/ref/foreach.dll
