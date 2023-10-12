@@ -1,0 +1,14 @@
+/Users/ignat/Desktop/OOP/Code /at_home/functons/bin/Debug/net7.0/functons
+/Users/ignat/Desktop/OOP/Code /at_home/functons/bin/Debug/net7.0/functons.deps.json
+/Users/ignat/Desktop/OOP/Code /at_home/functons/bin/Debug/net7.0/functons.runtimeconfig.json
+/Users/ignat/Desktop/OOP/Code /at_home/functons/bin/Debug/net7.0/functons.dll
+/Users/ignat/Desktop/OOP/Code /at_home/functons/bin/Debug/net7.0/functons.pdb
+/Users/ignat/Desktop/OOP/Code /at_home/functons/obj/Debug/net7.0/functons.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/OOP/Code /at_home/functons/obj/Debug/net7.0/functons.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/OOP/Code /at_home/functons/obj/Debug/net7.0/functons.AssemblyInfo.cs
+/Users/ignat/Desktop/OOP/Code /at_home/functons/obj/Debug/net7.0/functons.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/OOP/Code /at_home/functons/obj/Debug/net7.0/functons.dll
+/Users/ignat/Desktop/OOP/Code /at_home/functons/obj/Debug/net7.0/refint/functons.dll
+/Users/ignat/Desktop/OOP/Code /at_home/functons/obj/Debug/net7.0/functons.pdb
+/Users/ignat/Desktop/OOP/Code /at_home/functons/obj/Debug/net7.0/functons.genruntimeconfig.cache
+/Users/ignat/Desktop/OOP/Code /at_home/functons/obj/Debug/net7.0/ref/functons.dll
