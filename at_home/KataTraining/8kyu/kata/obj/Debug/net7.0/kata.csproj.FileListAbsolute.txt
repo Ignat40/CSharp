@@ -1,0 +1,14 @@
+/Users/ignat/Desktop/OOP/Code /at_home/KataTraining/8kyu/kata/bin/Debug/net7.0/kata
+/Users/ignat/Desktop/OOP/Code /at_home/KataTraining/8kyu/kata/bin/Debug/net7.0/kata.deps.json
+/Users/ignat/Desktop/OOP/Code /at_home/KataTraining/8kyu/kata/bin/Debug/net7.0/kata.runtimeconfig.json
+/Users/ignat/Desktop/OOP/Code /at_home/KataTraining/8kyu/kata/bin/Debug/net7.0/kata.dll
+/Users/ignat/Desktop/OOP/Code /at_home/KataTraining/8kyu/kata/bin/Debug/net7.0/kata.pdb
+/Users/ignat/Desktop/OOP/Code /at_home/KataTraining/8kyu/kata/obj/Debug/net7.0/kata.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/OOP/Code /at_home/KataTraining/8kyu/kata/obj/Debug/net7.0/kata.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/OOP/Code /at_home/KataTraining/8kyu/kata/obj/Debug/net7.0/kata.AssemblyInfo.cs
+/Users/ignat/Desktop/OOP/Code /at_home/KataTraining/8kyu/kata/obj/Debug/net7.0/kata.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/OOP/Code /at_home/KataTraining/8kyu/kata/obj/Debug/net7.0/kata.dll
+/Users/ignat/Desktop/OOP/Code /at_home/KataTraining/8kyu/kata/obj/Debug/net7.0/refint/kata.dll
+/Users/ignat/Desktop/OOP/Code /at_home/KataTraining/8kyu/kata/obj/Debug/net7.0/kata.pdb
+/Users/ignat/Desktop/OOP/Code /at_home/KataTraining/8kyu/kata/obj/Debug/net7.0/kata.genruntimeconfig.cache
+/Users/ignat/Desktop/OOP/Code /at_home/KataTraining/8kyu/kata/obj/Debug/net7.0/ref/kata.dll
