@@ -1,12 +1,8 @@
 ﻿using System;
 using System.ComponentModel;
-using System.Data;
-using System.Diagnostics.Contracts;
-using System.Globalization;
+using System.ComponentModel.DataAnnotations;
 using System.Net.Http.Headers;
-using System.Net.Sockets;
-using System.Reflection.Metadata;
-using System.Xml.Schema;
+
 
 namespace Practice
 {
@@ -14,7 +10,8 @@ namespace Practice
     {
         public static void Main()
         {
-            PrimeNumber();
+            
+
         }
 
         public static void guessTheNumber()
@@ -213,11 +210,20 @@ namespace Practice
             {
                 Console.WriteLine("Not a Prime Number");
             }
-            
-
-
-
         }
+        public static string SentanceSmash(string[] words)
+        {
+            //------------------------- Ex. 7 -------------------------\\
+            string sentance = "";
+            foreach (var item in words)
+            {
+                sentance += item + ".";
+            }
+            sentance = sentance.Remove(sentance.Length - 1);
+            return sentance;
+        }
+
+        
 
     }
 }
