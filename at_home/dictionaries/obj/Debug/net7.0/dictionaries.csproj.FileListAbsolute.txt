@@ -1,0 +1,14 @@
+/Users/ignat/Desktop/OOP/Code /at_home/dictionaries/bin/Debug/net7.0/dictionaries
+/Users/ignat/Desktop/OOP/Code /at_home/dictionaries/bin/Debug/net7.0/dictionaries.deps.json
+/Users/ignat/Desktop/OOP/Code /at_home/dictionaries/bin/Debug/net7.0/dictionaries.runtimeconfig.json
+/Users/ignat/Desktop/OOP/Code /at_home/dictionaries/bin/Debug/net7.0/dictionaries.dll
+/Users/ignat/Desktop/OOP/Code /at_home/dictionaries/bin/Debug/net7.0/dictionaries.pdb
+/Users/ignat/Desktop/OOP/Code /at_home/dictionaries/obj/Debug/net7.0/dictionaries.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/OOP/Code /at_home/dictionaries/obj/Debug/net7.0/dictionaries.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/OOP/Code /at_home/dictionaries/obj/Debug/net7.0/dictionaries.AssemblyInfo.cs
+/Users/ignat/Desktop/OOP/Code /at_home/dictionaries/obj/Debug/net7.0/dictionaries.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/OOP/Code /at_home/dictionaries/obj/Debug/net7.0/dictionaries.dll
+/Users/ignat/Desktop/OOP/Code /at_home/dictionaries/obj/Debug/net7.0/refint/dictionaries.dll
+/Users/ignat/Desktop/OOP/Code /at_home/dictionaries/obj/Debug/net7.0/dictionaries.pdb
+/Users/ignat/Desktop/OOP/Code /at_home/dictionaries/obj/Debug/net7.0/dictionaries.genruntimeconfig.cache
+/Users/ignat/Desktop/OOP/Code /at_home/dictionaries/obj/Debug/net7.0/ref/dictionaries.dll
