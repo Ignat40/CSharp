@@ -1,4 +1,6 @@
 ﻿using System;
+using System.ComponentModel;
+using System.Reflection.Metadata;
 
 namespace Kata8
 {
@@ -6,8 +8,12 @@ namespace Kata8
     {
         public static void Main()
         {
-            string test = "UUUU";
-            Console.WriteLine($"{dnaToRna(test)}");
+            int[] test1 = {0};
+            int[] test2 = {0, 1, 4};
+            int[] test3 = {0, -1, -5};
+            Console.WriteLine(OddOrEven(test1));
+            Console.WriteLine(OddOrEven(test2));
+            Console.WriteLine(OddOrEven(test3));
         }
 
         public static string SentanceSmash(string[] words)
@@ -141,6 +147,61 @@ namespace Kata8
             string rna = new string(charArray);
             return rna;
         
+        }
+
+        public static int[] Maps(int[] x)
+        {
+        //------------------------- Ex. 9 -------------------------\\
+            int[] xDoubled = new int[x.Length];
+
+            for(int i = 0; i < x.Length; i++)
+            {
+                xDoubled[i] = x[i] * 2;
+            }
+
+            return xDoubled;
+
+        }
+
+        public static int Getsum(int x, int b)
+        {
+        //------------------------- Ex. 10 -------------------------\\
+            bool isEqual = false;
+            int sum = 0;
+
+            if(x < b)
+            {
+                for (int i = x; i <= b; i++)
+                {
+                    sum += i;
+                }
+            }
+            else if(x > b)
+            {
+                for (int i = b; i <= x; i++)
+                {
+                    sum += i;
+                }  
+            }
+            else
+            {
+                sum = x; 
+            } 
+
+            return sum;
+            
+        }
+
+        public static string OddOrEven(int[] arr)
+        {   
+            int sum = 0;
+            for(int i = 0; i < arr.Length; i++)
+            {
+                sum += arr[i];
+            }
+
+            var test = sum % 2 == 0 ? "even" : "odd";
+            return test;
         }
     }
 }
