@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Diagnostics.Metrics;
+using System.Net.Http.Headers;
 using System.Reflection.Metadata;
 using System.Reflection.Metadata.Ecma335;
 using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
 
 namespace Kata
 {
@@ -10,10 +12,15 @@ namespace Kata
     {
         public static void Main()
         {
-            System.Console.WriteLine($"{NextSquare(121)}");
-            System.Console.WriteLine($"{NextSquare(625)}");
-            System.Console.WriteLine($"{NextSquare(-114)}");
-            System.Console.WriteLine($"{NextSquare(15241383936)}");
+            string str1 = "Dermatoglyphics";
+            string str2 = "moose";
+            string str3 = "aba";
+            string str4 = "moOse";
+
+            Console.WriteLine(isIsogram(str1));
+            Console.WriteLine(isIsogram(str2));
+            Console.WriteLine(isIsogram(str3));
+            Console.WriteLine(isIsogram(str4));
         }
 
         public static string DateNbDays(double a0, double a, double p)
@@ -152,7 +159,7 @@ namespace Kata
         public static long NextSquare(long num)
         {
             long sqrt = (long)Math.Sqrt(num);
-            
+
             if (sqrt * sqrt == num)
             {
                 return (sqrt + 1) * (sqrt + 1);
@@ -161,6 +168,23 @@ namespace Kata
             {
                 return -1;
             }
+        }
+
+        public static bool isIsogram(string isogram)
+        {
+            string v = isogram.ToLower();
+
+            for (int i = 0; i < v.Length; i++)
+            {
+                for (int j = i + 1; j < v.Length; j++)
+                {
+                    if(v[i] == v[j])
+                    {
+                        return true;
+                    }
+                }
+            }
+            return false;
         }
 
 
