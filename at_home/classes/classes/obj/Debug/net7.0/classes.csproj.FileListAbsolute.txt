@@ -1,0 +1,14 @@
+/Users/ignat/Desktop/OOP/Code /at_home/classes/classes/bin/Debug/net7.0/classes
+/Users/ignat/Desktop/OOP/Code /at_home/classes/classes/bin/Debug/net7.0/classes.deps.json
+/Users/ignat/Desktop/OOP/Code /at_home/classes/classes/bin/Debug/net7.0/classes.runtimeconfig.json
+/Users/ignat/Desktop/OOP/Code /at_home/classes/classes/bin/Debug/net7.0/classes.dll
+/Users/ignat/Desktop/OOP/Code /at_home/classes/classes/bin/Debug/net7.0/classes.pdb
+/Users/ignat/Desktop/OOP/Code /at_home/classes/classes/obj/Debug/net7.0/classes.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/OOP/Code /at_home/classes/classes/obj/Debug/net7.0/classes.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/OOP/Code /at_home/classes/classes/obj/Debug/net7.0/classes.AssemblyInfo.cs
+/Users/ignat/Desktop/OOP/Code /at_home/classes/classes/obj/Debug/net7.0/classes.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/OOP/Code /at_home/classes/classes/obj/Debug/net7.0/classes.dll
+/Users/ignat/Desktop/OOP/Code /at_home/classes/classes/obj/Debug/net7.0/refint/classes.dll
+/Users/ignat/Desktop/OOP/Code /at_home/classes/classes/obj/Debug/net7.0/classes.pdb
+/Users/ignat/Desktop/OOP/Code /at_home/classes/classes/obj/Debug/net7.0/classes.genruntimeconfig.cache
+/Users/ignat/Desktop/OOP/Code /at_home/classes/classes/obj/Debug/net7.0/ref/classes.dll
