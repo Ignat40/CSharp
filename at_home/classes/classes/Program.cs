@@ -38,9 +38,9 @@ namespace ClassesExercises
 
     public class Person
     {
-        public string? Name; 
+        public string? Name;
         public int Age;
-        public bool IsMarried; 
+        public bool IsMarried;
 
         public static void PresentPerson(Person person)
         {
@@ -55,17 +55,17 @@ namespace ClassesExercises
         }
         public static int Parameter(int width, int height)
         {
-            return 2*(width + height);
+            return 2 * (width + height);
         }
     }
 
     class Student
     {
-        public string? StudentName {get; set;}
-        public int RowNumber {get; set;}
-        public int MathGrade {get; set;}
-        public int GeographyGrade {get; set;}
-        public int HistoryGrade {get; set;}
+        public string? StudentName { get; set; }
+        public int RowNumber { get; set; }
+        public int MathGrade { get; set; }
+        public int GeographyGrade { get; set; }
+        public int HistoryGrade { get; set; }
 
         public Student(string studetnName, int rowNumber, int mathGrade, int geoGrade, int historyGrade)
         {
@@ -82,16 +82,16 @@ namespace ClassesExercises
 
         public double AverageGrade()
         {
-            double avg = (MathGrade + GeographyGrade + HistoryGrade)/3;
+            double avg = (MathGrade + GeographyGrade + HistoryGrade) / 3;
             return avg;
         }
-        
+
     }
     class Car
     {
-        public string? Model {get; set;}
-        public int YearOfManufactioring {get; set;}
-        public string? Engine {get; set;}
+        public string? Model { get; set; }
+        public int YearOfManufactioring { get; set; }
+        public string? Engine { get; set; }
         public Car()
         {
         }
@@ -103,66 +103,79 @@ namespace ClassesExercises
             Console.WriteLine($"Engine: {Engine}");
         }
     }
-    // class Program
-    // {
-    //     public static void Main()
-    //     {
-    //         Calculator calculator = new();
-    //         int num1 = 10;
-    //         int num2 = 5;
-    //         Console.WriteLine(Calculator.Add(num2, num1));
-    //         Console.WriteLine(Calculator.Subtract(num2, num1));
-    //         Console.WriteLine(Calculator.Multiplicatoin(num2, num1));
-    //         Console.WriteLine(Calculator.Devition(num2, num1));
+    class Program
+    {
+        public static void Main()
+        {
+            //         Calculator calculator = new();
+            //         int num1 = 10;
+            //         int num2 = 5;
+            //         Console.WriteLine(Calculator.Add(num2, num1));
+            //         Console.WriteLine(Calculator.Subtract(num2, num1));
+            //         Console.WriteLine(Calculator.Multiplicatoin(num2, num1));
+            //         Console.WriteLine(Calculator.Devition(num2, num1));
 
-    //         Console.WriteLine("\n--------------------------------------------\n");
+            //         Console.WriteLine("\n--------------------------------------------\n");
 
-    //         Person person = new();
-    //         person.Name = "Martin";
-    //         person.Age = 20;
-    //         person.IsMarried = false;
-    //         Person.PresentPerson(person);
+            //         Person person = new();
+            //         person.Name = "Martin";
+            //         person.Age = 20;
+            //         person.IsMarried = false;
+            //         Person.PresentPerson(person);
 
-    //         Person person2 = new()
-    //         {
-    //             Name = "Ivan",
-    //             Age = 25,
-    //             IsMarried = true
-    //         };
-    //         Person.PresentPerson(person2);
+            //         Person person2 = new()
+            //         {
+            //             Name = "Ivan",
+            //             Age = 25,
+            //             IsMarried = true
+            //         };
+            //         Person.PresentPerson(person2);
 
-    //         Console.WriteLine("\n--------------------------------------------\n");
+            //         Console.WriteLine("\n--------------------------------------------\n");
 
-    //         Shape square = new();
-    //         Console.WriteLine($"The area of the sqare is {Shape.Area(5, 10)}");
-    //         Console.WriteLine($"The parameter of the sqare is {Shape.Parameter(5, 10)}");
+            //         Shape square = new();
+            //         Console.WriteLine($"The area of the sqare is {Shape.Area(5, 10)}");
+            //         Console.WriteLine($"The parameter of the sqare is {Shape.Parameter(5, 10)}");
 
-    //         Console.WriteLine("\n--------------------------------------------\n");
+            //         Console.WriteLine("\n--------------------------------------------\n");
 
-    //         Student student1 = new()
-    //         {
-    //             StudentName = "Ivan Ivanov", 
-    //             RowNumber = 10,
-    //             GeographyGrade = 6,
-    //             MathGrade = 4,
-    //             HistoryGrade = 5
-    //         };
-    //         double avgGrade = student1.AverageGrade();
-    //         Console.WriteLine("Name: " + student1.StudentName);
-    //         Console.WriteLine("Row: " + student1.RowNumber);
-    //         Console.WriteLine("Average Grade: " + avgGrade);
+            //         Student student1 = new()
+            //         {
+            //             StudentName = "Ivan Ivanov", 
+            //             RowNumber = 10,
+            //             GeographyGrade = 6,
+            //             MathGrade = 4,
+            //             HistoryGrade = 5
+            //         };
+            //         double avgGrade = student1.AverageGrade();
+            //         Console.WriteLine("Name: " + student1.StudentName);
+            //         Console.WriteLine("Row: " + student1.RowNumber);
+            //         Console.WriteLine("Average Grade: " + avgGrade);
 
-    //         Console.WriteLine("\n--------------------------------------------\n");
+            //         Console.WriteLine("\n--------------------------------------------\n");
 
-    //         Car car = new()
-    //         {
-    //             Model = "Shelby",
-    //             YearOfManufactioring = 1964,
-    //             Engine = "V8 with 400 HP"
-    //         };
-    //         car.DisplayInfo();
+            //         Car car = new()
+            //         {
+            //             Model = "Shelby",
+            //             YearOfManufactioring = 1964,
+            //             Engine = "V8 with 400 HP"
+            //         };
+            //         car.DisplayInfo();
 
-    //     }
-    // }
+            Human human = new();
+            human.Name = "Mike";
+            human.Age = 20;
+            human.Greeting();
+            human.Birthday();
+
+            Human human2 = new();
+            human.Name = "Ronnie";
+            human.Age = 16;
+
+            human.Greeting();
+            human.Birthday();
+
+        }
+    }
 
 }

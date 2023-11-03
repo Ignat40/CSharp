@@ -42,15 +42,4 @@ namespace ATM
             Console.WriteLine($"Balance: {Balance}");
         }
     }
-
-    class Program
-    {
-        public static void Main()
-        {
-            BankAccount bankAccount = new("LK1J23H4HFQ", "Rumen Ognqnow", 15000);
-            bankAccount.DisplayMoney(bankAccount);
-            Console.WriteLine($"{bankAccount.Deposit(1000)}");
-            Console.WriteLine($"{bankAccount.Withdraw(3943)}");
-        }
-    }
 }
