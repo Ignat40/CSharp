@@ -22,8 +22,18 @@ namespace ATM
         }
         public double Withdraw(double withdrawMoney)
         {
-            double newBalance = Balance - withdrawMoney;
-            return newBalance;
+            
+            if (withdrawMoney > Balance)
+            {
+                Console.WriteLine("Not enough money in account");
+            }
+            else
+            {
+                Balance -= withdrawMoney;
+            }
+
+            return Balance;
+
         }
         public void DisplayMoney(BankAccount bankAccount)
         {
@@ -32,7 +42,7 @@ namespace ATM
             Console.WriteLine($"Balance: {Balance}");
         }
     }
-    
+
     class Program
     {
         public static void Main()
