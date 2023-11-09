@@ -5,6 +5,7 @@ using System.Reflection.Metadata;
 using System.Reflection.Metadata.Ecma335;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using System.Timers;
 
 namespace Kata
 {
@@ -12,15 +13,12 @@ namespace Kata
     {
         public static void Main()
         {
-            string str1 = "Dermatoglyphics";
-            string str2 = "moose";
-            string str3 = "aba";
-            string str4 = "moOse";
+            string? word = "This is an example!";
+            string? word2 = "sihT si na !elpmaxe";
 
-            Console.WriteLine(isIsogram(str1));
-            Console.WriteLine(isIsogram(str2));
-            Console.WriteLine(isIsogram(str3));
-            Console.WriteLine(isIsogram(str4));
+            Console.WriteLine($"Reversed -> {ReverseString(word)}");
+            Console.WriteLine($"Reversed -> {ReverseString(word2)}");
+
         }
 
         public static string DateNbDays(double a0, double a, double p)
@@ -178,7 +176,7 @@ namespace Kata
             {
                 for (int j = i + 1; j < v.Length; j++)
                 {
-                    if(v[i] == v[j])
+                    if (v[i] == v[j])
                     {
                         return true;
                     }
@@ -186,7 +184,42 @@ namespace Kata
             }
             return false;
         }
+        public static int ElevatorDistance(int[] floors)
+        {
+            int floorsTravelled = 0;
 
+            for (int i = 0; i < floors.Length - 1; i++)
+            {
+                int result = 0;
+
+                if (floors[i] > floors[i + 1])
+                {
+                    result = floors[i] - floors[i + 1];
+                }
+                else if (floors[i] < floors[i + 1])
+                {
+                    result = floors[i + 1] - floors[i];
+                }
+
+                floorsTravelled += result;
+            }
+
+            return floorsTravelled;
+        }
+
+        public static string ReverseString(string? str)
+        {
+            string[] word = str.Split(' ');
+
+            for (int i = 0; i < word.Length; i++)
+            {
+                char[] charArray = word[i].ToCharArray();
+                Array.Reverse(charArray);
+                word[i] = new string(charArray);
+            }
+            return string.Join(" ", word);
+        }
 
     }
 }
+
