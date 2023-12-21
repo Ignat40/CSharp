@@ -1,0 +1,37 @@
+### Chapter 3: Variables and Expressions
+
+10. Define basic C# syntax and the structure of a console application.
+    -> C# is made up of serires of "statements", each of which is terminated by ";". It is possible 
+    to have multiple statements in one line, however this make readability more difficult thus is not recommended.
+    C# is a block-structured language, which means that statements are part of these code blockes, which are 
+    delimited by the use of the curly brackets "{" "}". The blocks are allowed to contain as many statements 
+    as needed or not at all. Another important part about C#'s syntax is that it's a "case-sensitive" language. 
+
+11. Explain the concept of variables and discuss simple types in C#.
+    -> Variables are concerned with storting data. Variables come wtih different falvours known as
+    "types". To use a variable in C# you must declare it, which means that you must assign them with 
+    type and name. There are some restrictions to naming a variable however. For instance you cannot use built-in key words,
+    start the name with a number or oner symbols apart from "_" and "@". 
+
+12. What are literals in C#, and how do you use string literals?
+    -> Literal values (constants) are exact values (alphabetic or numeric).
+    These values are also the constants that you use in expressions, 
+    such as the numeric value 100, or the string literals which must be enclosed as shown "John Smith".
+
+13. Describe mathematical operators, assignment operators, and their precedence in expressions.
+    ->Mathematical operators in C# perform arithmetic operations. Common mathematical operators include:
+    Addition (+): Adds two operands.
+    Subtraction (-): Subtracts the right operand from the left operand.
+    Multiplication (*): Multiplies two operands.
+    Division (/): Divides the left operand by the right operand.
+    Modulus (%): Returns the remainder of the division of the left operand by the right operand.
+    Assignment Operators:
+    Assignment operators are used to assign values to variables. Common assignment operators include:
+    Assignment (=): Assigns the value on the right to the variable on the left.
+    Addition Assignment (+=): Adds the right operand to the left operand and assigns the result to the left operand.
+    Subtraction Assignment (-=): Subtracts the right operand to the left operand and assigns the result to the left operand.
+
+14. What is the significance of namespaces in C#?
+    -> All names defined in a .NET application, including variable names,
+     are contained in a namespace. Namespaces are hierarchical,
+      and you often must qualify names according to the namespace that contains them in order to access them.

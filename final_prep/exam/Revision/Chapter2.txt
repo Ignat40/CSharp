@@ -1,0 +1,7 @@
+### Chapter 2: Writing a C# Program
+
+6. Walk through the components of the Visual Studio development environment.
+    -> 
+7. Explain the structure of a C# console application and the key elements in the Solution Explorer.
+8. What are the main windows in Visual Studio for debugging, and how do they assist in identifying errors?
+9. Discuss the key features of desktop applications in C#.

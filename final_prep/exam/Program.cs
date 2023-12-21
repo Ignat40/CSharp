@@ -1,10 +1,15 @@
-﻿namespace ExamPrep
+﻿using System.Xml.XPath;
+
+namespace ExamPrep
 {
     class Program
     {
         public static void Main()
         {
-            Console.WriteLine("cock");
+            int a = 5;
+            int b = 2;
+            int result = a / b;
+            Console.WriteLine(result);
         }
     }
 }

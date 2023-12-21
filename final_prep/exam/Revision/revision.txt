@@ -1,0 +1,83 @@
+### Chapter 1: Introducing C#
+1. What is the .NET framework, and how does it relate to .NET Standard and .NET Core?
+2. Explain the concepts of Common Intermediate Language (CIL) and Just-In-Time (JIT) compilation.
+3. What are assemblies in C#?
+4. Describe the characteristics of managed code and the role of garbage collection.
+5. How does C# fit into the .NET ecosystem, and what types of applications can you write with C#?
+
+### Chapter 2: Writing a C# Program
+6. Walk through the components of the Visual Studio development environment.
+7. Explain the structure of a C# console application and the key elements in the Solution Explorer.
+8. What are the main windows in Visual Studio for debugging, and how do they assist in identifying errors?
+9. Discuss the key features of desktop applications in C#.
+
+### Chapter 3: Variables and Expressions
+10. Define basic C# syntax and the structure of a console application.
+11. Explain the concept of variables and discuss simple types in C#.
+12. What are literals in C#, and how do you use string literals?
+13. Describe mathematical operators, assignment operators, and their precedence in expressions.
+14. What is the significance of namespaces in C#?
+
+### Chapter 4: Flow Control
+15. Explain boolean logic and the bitwise and assignment operators.
+16. Walk through the use of if statements, including the ternary operator and switch statements.
+17. Discuss the different types of loops in C# and scenarios where they are appropriate.
+18. How can you handle errors in C# using try-catch-finally blocks?
+
+### Chapter 5: More About Variables
+19. Discuss type conversion, both implicit and explicit, and provide examples.
+20. Explain complex variable types such as enumerations, structs, and arrays.
+21. How do you perform pattern matching with the switch case expression?
+22. Describe string manipulation techniques in C#.
+
+### Chapter 6: Functions
+23. Define and use functions in C#, including return values and parameters.
+24. Discuss variable scope, local functions, and struct functions.
+25. How does overloading functions work, and what is the role of delegates?
+
+### Chapter 7: Debugging and Error Handling
+26. Walk through the process of debugging in Visual Studio, including breakpoints and variable monitoring.
+27. Explain error handling in C# using try-catch-finally blocks and throw expressions.
+
+### Chapter 8: Introduction to Object-Oriented Programming
+28. Define object-oriented programming and key concepts like objects, properties, and methods.
+29. Explain the life cycle of an object, including constructors and destructors.
+30. Discuss static and instance class members, static constructors, and static classes.
+31. How are object-oriented programming techniques applied in desktop applications?
+
+### Chapter 9: Defining Classes
+32. Describe class definitions in C# and the role of interfaces.
+33. Explain the execution sequence of constructors and destructors.
+34. How does Visual Studio support object-oriented programming with tools like the Class View Window and Object Browser?
+
+### Chapter 10: Defining Class Members
+35. Walk through the definitions of fields, methods, and properties in a class.
+36. Discuss additional topics related to class members, such as hiding base class methods and partial class definitions.
+
+### Chapter 11: Collections, Comparisons, and Conversions
+37. Explain the use of collections in C# and define indexers.
+38. Discuss comparisons in C#, including type comparisons, boxing, and unboxing.
+39. How do you handle conversions in C#, and what are the different types of conversions?
+
+### Chapter 12: Generics
+40. Define generics in C# and discuss their usage.
+41. Explain nullable types and operators related to nullable types.
+42. How do you work with generic collections, and what is the role of the default keyword?
+
+### Chapter 13: Additional C# Techniques
+43. Discuss advanced topics such as the :: operator, custom exceptions, and events.
+44. Explain the use of anonymous methods and lambda expressions in C#.
+45. How do you use attributes, initializers, and dynamic types in C#?
+
+### Part II: Data Access
+
+### Chapter 14: Files
+46. Walk through the file classes for input and output in C#.
+47. Explain the concept of streams and their usage in C#.
+48. How do you perform asynchronous file access and monitor the file system in C#?
+
+### Chapter 15: XML and JSON
+49. Discuss the basics of XML and JSON in C#.
+50. Explain the XML Document Object Model and how to manipulate XML using C#.
+51. How do you perform JSON serialization and deserialization in C#?
+
