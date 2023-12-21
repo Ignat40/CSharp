@@ -1,0 +1,14 @@
+/Users/ignat/Desktop/OOP/Code /final_prep/exam/bin/Debug/net7.0/exam
+/Users/ignat/Desktop/OOP/Code /final_prep/exam/bin/Debug/net7.0/exam.deps.json
+/Users/ignat/Desktop/OOP/Code /final_prep/exam/bin/Debug/net7.0/exam.runtimeconfig.json
+/Users/ignat/Desktop/OOP/Code /final_prep/exam/bin/Debug/net7.0/exam.dll
+/Users/ignat/Desktop/OOP/Code /final_prep/exam/bin/Debug/net7.0/exam.pdb
+/Users/ignat/Desktop/OOP/Code /final_prep/exam/obj/Debug/net7.0/exam.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/OOP/Code /final_prep/exam/obj/Debug/net7.0/exam.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/OOP/Code /final_prep/exam/obj/Debug/net7.0/exam.AssemblyInfo.cs
+/Users/ignat/Desktop/OOP/Code /final_prep/exam/obj/Debug/net7.0/exam.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/OOP/Code /final_prep/exam/obj/Debug/net7.0/exam.dll
+/Users/ignat/Desktop/OOP/Code /final_prep/exam/obj/Debug/net7.0/refint/exam.dll
+/Users/ignat/Desktop/OOP/Code /final_prep/exam/obj/Debug/net7.0/exam.pdb
+/Users/ignat/Desktop/OOP/Code /final_prep/exam/obj/Debug/net7.0/exam.genruntimeconfig.cache
+/Users/ignat/Desktop/OOP/Code /final_prep/exam/obj/Debug/net7.0/ref/exam.dll
