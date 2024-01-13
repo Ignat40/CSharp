@@ -1,0 +1,4 @@
+Chapter 13: Additional C# Techniques
+Discuss advanced topics such as the :: operator, custom exceptions, and events.
+Explain the use of anonymous methods and lambda expressions in C#.
+How do you use attributes, initializers, and dynamic types in C#?

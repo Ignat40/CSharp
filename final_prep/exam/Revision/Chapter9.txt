@@ -1,0 +1,4 @@
+Chapter 9: Defining Classes
+Describe class definitions in C# and the role of interfaces.
+Explain the execution sequence of constructors and destructors.
+How does Visual Studio support object-oriented programming with tools like the Class View Window and Object Browser?

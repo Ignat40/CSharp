@@ -1,0 +1,4 @@
+Chapter 6: Functions
+Define and use functions in C#, including return values and parameters.
+Discuss variable scope, local functions, and struct functions.
+How does overloading functions work, and what is the role of delegates?

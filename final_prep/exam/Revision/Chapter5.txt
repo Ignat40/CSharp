@@ -1,0 +1,52 @@
+## Chapter 5: More About Variables
+
+1. Discuss type conversion, both implicit and explicit, and provide examples.
+    -> 
+    1. Implicit: Conversion from type A to type B is possible in all circumstanses, and the rules 
+    of conversion are simple enough for you to trust the compiler.Any type A whose range of possible values
+    completely fits inside the range of possible values of type B can be implicitly converted into that type.
+
+    2. Explicit: Conversion from type A to type B is possible in certain circumstanses, and the rules
+    of conversion are complicated enough to require additional processing of some kind.Two keywords exist
+    for setting what is called the overflow checking context for an expression: checked and unchecked. 
+    You use these in the following way:
+        checked(<expression>)
+        unchecked(<expression>)
+    
+
+2. Explain complex variable types such as enumerations, structs, and arrays.
+    -> 
+    1. Enumerations: They allow the definition of a type that can take one of a finite set of values
+    that you supply.
+        enum <typename>
+        {
+            <value1>
+            <value2>
+            <value3>
+            <value...>
+        }
+
+    Next, you can declare variables of this new type as follows:
+        <typeName> <varName>;
+    You can assign values using the following:
+        <varName> = <typeName>.<value>;
+
+    2. Structs: Data structures composed of several pieces of data,
+    possibly of different types. They enable you to define your own types of variables
+    based on this structure. 
+        struct <typename>
+        {
+            <memberdeclarations>
+        }
+
+    3. Arrays: Arrays are indexed lists of variables stored in a single array type variable. 
+    Arrays have a single base type—that is, individual entries in an array are all of the same type.
+        <baseType>[] <name>; 
+
+
+3. How do you perform pattern matching with the switch case expression?
+    -> 
+
+4. Describe string manipulation techniques in C#.
+    ->
+

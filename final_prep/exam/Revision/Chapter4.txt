@@ -1,0 +1,58 @@
+### Chapter 4: Flow Control
+
+15. Explain boolean logic and the bitwise and assignment operators.
+    -> The boolean logic operators contain only two values - true and false. They are mostly used 
+    to store the result of a comparisons. Boolean comparisons can be combined with assignments by
+    combining Boolean bitwise and assign- ment operators. These work in the same way as 
+    the mathematical assignment operators
+
+16. Walk through the use of if statements, including the ternary operator and switch statements.
+    -> The simplest way to perform a comparison is to use the ternary (or conditional) operator. It has the 
+    following syntax: <test> ? <resultIfTrue>: <resultIfFalse>; The if statement is a far more versatile
+     and useful way to make decisions: 
+        if (<test>)
+            <code executed if <test> is true>;
+    You can also specify additional code using the else statement in combination with an if statement. This statement is executed if <test> evaluates to false:
+        if (<test>)
+            <code executed if <test> is true>;
+        else
+            <code executed if <test> is false>;
+    The switch case is more or less the same tool for comparison. However, 
+    switch enables you to test for multiple values of a test variable in one go,
+     rather than just a single condition.
+
+17. Discuss the different types of loops in C# and scenarios where they are appropriate.
+    -> Looping refers to the repeated execution of statements. 
+
+    1. For loop: This type of loop executes a set num- ber of times and maintains its own counter.
+    To define it you need three things: 
+        1. Starting value to initialize the counter variable
+        2. Condition for continuing the loop, involving the counte variable
+        3. An operation to perform on the counte variable at the end of each loop cycle. 
+    
+    2. While loop: The Boolean test in a while loop takes place at the start of the loop cycle,
+    not at the end. If the test evaluates to false, then the loop cycle is never executed.
+    Instead, program execution jumps straight to the code follow- ing the loop.
+
+    3. Do-While loop: The marked out code for executions is run the the "do" block, immediately followed
+    by a while(comparison) that checks if the condition is still true after each itteration. If it's not
+    the loop exits. 
+
+    4. Foreach: Repeats a block of code for each element in a collecdtion
+
+
+    Sometimes you want finer-grained control over the processing of looping code.
+     C# provides com- mands to help you here:
+        ➤➤ break—Causes the loop to end immediately
+        ➤➤ continue—Causes the current loop cycle to end immediately (execution continues with the
+        next loop cycle)          
+        ➤➤ return—Jumps out of the loop and its containing function
+
+18. How can you handle errors in C# using try-catch-finally blocks?
+    ->  The try block contains the code that might raise an exception.
+        If an exception occurs within the try block, the normal flow of execution is interrupted,
+        and the control is transferred to the appropriate catch block.
+        The catch block specifies the type of exception to catch and the code to handle it.
+        Multiple catch blocks can be used to handle different types of exceptions.
+        The catch block is executed only if an exception of the specified type is thrown
+        in the corresponding try block.

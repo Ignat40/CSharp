@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ignat/Desktop/OOP/Code /final_prep/exam/exam.csproj",
-      "projectName": "exam",
-      "projectPath": "/Users/ignat/Desktop/OOP/Code /final_prep/exam/exam.csproj",
+      "projectUniqueName": "/Users/ignat/Desktop/OOP/Code /final_prep/codeTest/prep/prep.csproj",
+      "projectName": "prep",
+      "projectPath": "/Users/ignat/Desktop/OOP/Code /final_prep/codeTest/prep/prep.csproj",
       "packagesPath": "/Users/ignat/.nuget/packages/",
-      "outputPath": "/Users/ignat/Desktop/OOP/Code /final_prep/exam/obj/",
+      "outputPath": "/Users/ignat/Desktop/OOP/Code /final_prep/codeTest/prep/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ignat/.nuget/NuGet/NuGet.Config"

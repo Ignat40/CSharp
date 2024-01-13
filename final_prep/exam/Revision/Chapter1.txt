@@ -13,13 +13,16 @@
     allowing it to run on the specific hardware.
 
 3. What are assemblies in C#?
-    -> Assemblies are the fundamental units of deployment and versioning in .NET. 
+    -> Assemblies are the fundamental units of deployment and versioning in .NET. (pre-compiled .net code) 
     They contain compiled code, metadata, and resources needed for an application. 
     Assemblies can be executables (with a .exe extension) or libraries (with a .dll extension).
+    An assembly is a collection of types and resources that are built to work together 
+    and form a logical unit of functionality
 
 4. Describe the characteristics of managed code and the role of garbage collection.
     -> Managed code runs in a managed environment with services like automatic memory management (garbage collection).
-     Garbage collection cleans up unused objects, preventing memory leaks and enhancing application stability.
+     Garbage collection cleans up unused objects, preventing memory leaks and enhancing application stability. It works
+     by periodically inspecting the memory of your computer and removes everything that is no longer needed. 
 
 5. How does C# fit into the .NET ecosystem, and what types of applications can you write with C#?
     -> C# is a programming language designed for building applications on the .NET platform.

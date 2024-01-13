@@ -1,0 +1,14 @@
+/Users/ignat/Desktop/OOP/Code /final_prep/codeTest/prep/bin/Debug/net7.0/prep
+/Users/ignat/Desktop/OOP/Code /final_prep/codeTest/prep/bin/Debug/net7.0/prep.deps.json
+/Users/ignat/Desktop/OOP/Code /final_prep/codeTest/prep/bin/Debug/net7.0/prep.runtimeconfig.json
+/Users/ignat/Desktop/OOP/Code /final_prep/codeTest/prep/bin/Debug/net7.0/prep.dll
+/Users/ignat/Desktop/OOP/Code /final_prep/codeTest/prep/bin/Debug/net7.0/prep.pdb
+/Users/ignat/Desktop/OOP/Code /final_prep/codeTest/prep/obj/Debug/net7.0/prep.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/OOP/Code /final_prep/codeTest/prep/obj/Debug/net7.0/prep.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/OOP/Code /final_prep/codeTest/prep/obj/Debug/net7.0/prep.AssemblyInfo.cs
+/Users/ignat/Desktop/OOP/Code /final_prep/codeTest/prep/obj/Debug/net7.0/prep.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/OOP/Code /final_prep/codeTest/prep/obj/Debug/net7.0/prep.dll
+/Users/ignat/Desktop/OOP/Code /final_prep/codeTest/prep/obj/Debug/net7.0/refint/prep.dll
+/Users/ignat/Desktop/OOP/Code /final_prep/codeTest/prep/obj/Debug/net7.0/prep.pdb
+/Users/ignat/Desktop/OOP/Code /final_prep/codeTest/prep/obj/Debug/net7.0/prep.genruntimeconfig.cache
+/Users/ignat/Desktop/OOP/Code /final_prep/codeTest/prep/obj/Debug/net7.0/ref/prep.dll

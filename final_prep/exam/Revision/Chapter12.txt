@@ -1,0 +1,4 @@
+Chapter 12: Generics
+Define generics in C# and discuss their usage.
+Explain nullable types and operators related to nullable types.
+How do you work with generic collections, and what is the role of the default keyword?

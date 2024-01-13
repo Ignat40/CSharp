@@ -19,7 +19,7 @@
     such as the numeric value 100, or the string literals which must be enclosed as shown "John Smith".
 
 13. Describe mathematical operators, assignment operators, and their precedence in expressions.
-    ->Mathematical operators in C# perform arithmetic operations. Common mathematical operators include:
+    -> Mathematical operators in C# perform arithmetic operations. Common mathematical operators include:
     Addition (+): Adds two operands.
     Subtraction (-): Subtracts the right operand from the left operand.
     Multiplication (*): Multiplies two operands.

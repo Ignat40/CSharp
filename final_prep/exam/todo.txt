@@ -1,3 +1,0 @@
-THINGS TO REVISE 
-    1. Garbage Collections
-    2. 

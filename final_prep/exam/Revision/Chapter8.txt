@@ -1,0 +1,5 @@
+Chapter 8: Introduction to Object-Oriented Programming
+Define object-oriented programming and key concepts like objects, properties, and methods.
+Explain the life cycle of an object, including constructors and destructors.
+Discuss static and instance class members, static constructors, and static classes.
+How are object-oriented programming techniques applied in desktop applications?

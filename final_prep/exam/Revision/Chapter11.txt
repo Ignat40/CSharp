@@ -1,0 +1,4 @@
+Chapter 11: Collections, Comparisons, and Conversions
+Explain the use of collections in C# and define indexers.
+Discuss comparisons in C#, including type comparisons, boxing, and unboxing.
+How do you handle conversions in C#, and what are the different types of conversions?

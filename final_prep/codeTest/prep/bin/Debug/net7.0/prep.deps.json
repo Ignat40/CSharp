@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "exam/1.0.0": {
+      "prep/1.0.0": {
         "runtime": {
-          "exam.dll": {}
+          "prep.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "exam/1.0.0": {
+    "prep/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
