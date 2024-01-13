@@ -17,7 +17,7 @@
 2. Explain complex variable types such as enumerations, structs, and arrays.
     -> 
     1. Enumerations: They allow the definition of a type that can take one of a finite set of values
-    that you supply.
+    that you supply. They declare a set of named constants
         enum <typename>
         {
             <value1>
@@ -33,7 +33,7 @@
 
     2. Structs: Data structures composed of several pieces of data,
     possibly of different types. They enable you to define your own types of variables
-    based on this structure. 
+    based on this structure. Sctucts are value types. 
         struct <typename>
         {
             <memberdeclarations>
@@ -47,6 +47,6 @@
 3. How do you perform pattern matching with the switch case expression?
     -> 
 
-4. Describe string manipulation techniques in C#.
+4. Describe string manipulation techniques in C#. (see "Chapter5.cs" for examples)
     ->
 
