@@ -1,3 +1,13 @@
-Chapter 7: Debugging and Error Handling
-Walk through the process of debugging in Visual Studio, including breakpoints and variable monitoring.
-Explain error handling in C# using try-catch-finally blocks and throw expressions.
+### Chapter 7: Debugging and Error Handling
+    
+    Walk through the process of debugging in Visual Studio, including breakpoints and variable monitoring.
+    -> Debugging in Nonebreak(Normal) Mode: 
+    
+    Explain error handling in C# using try-catch-finally blocks and throw expressions.
+    -> 
+    1. Use try to enclose the code that might throw an exception.
+    2. Use catch to handle specific exceptions or use catch (Exception ex) for a general catch-all.
+    3. Optionally use finally for code that must be executed regardless of whether an exception occurred or not.
+    -> Throwing expressions
+    1. Use throw to raise an exception, and you can also use throw expressions for more concise error handling.
+    2. Throw expressions are often used in methods or properties to validate input parameters.
