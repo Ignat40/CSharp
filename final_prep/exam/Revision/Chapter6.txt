@@ -6,7 +6,13 @@
     or specifying a return type for those that do. Parameters allow passing data to a function, 
     and return values allow the function to provide a result to the calling code.
 
-2. Discuss variable scope, local functions, and struct functions.
+2. Discuss variable scope, local functions, and struct functions, ref and out, tuples.
+    -> ref parameters: Keyword that helps to pass variables by reference. It requires the parameter to be initialized
+    before entering the method. 
+
+    -> out parameters: Keyword that helps to pass variables by reference. It doens't require any prior initialization. 
+    The varioable marked with "out" has to be initialized inside of the method. 
+
     -> Variable Scope: Variable scope refers to the region of code where a variable can be accessed.
     Local variables are declared within a block or method and are only accessible within that scope.
 
@@ -16,9 +22,12 @@
     -> Struct Functions: Functions can be defined within structs in C#. 
     These functions are called struct methods and operate on an instance of the struct.
 
+    -> Tuples: A way for a function to return miltple values. It's a type that allows the grouping of multiple data elements.  
+
 3.How does overloading functions work, and what is the role of delegates?
     -> Function Overloading: Overloading functions allows defining multiple functions with the same name
-    but different parameter lists. The compiler selects the appropriate function based on the number and types of arguments provided.
+    but different parameter lists. Crucially they are the same functions but with different signitures. 
 
-    -> Delegates: Delegates in C# are objects that refer to methods, allowing for the creation of method pointers. 
+    -> Delegates: Delegates in C# are objects that refer to methods, allowing for storing references to functions and the creation of method pointers. 
     They are often used to implement callback mechanisms and event handling.
+
