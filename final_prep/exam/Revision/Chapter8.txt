@@ -26,7 +26,8 @@
         3. Protected: Only the base calss and dervied classes have access to a member. 
         The external code does not have access. 
         4. Virutal: The member can be overridden by the class that inherits it. 
-        5. Sealed: A sealed class cannot be used as a base class, so no derived classes are possible. 
+        5. Sealed: A sealed class cannot be inherit. 
+        6. Abstract: Cannot be instantiated, only inherited, and can have abstract members
 
     -> Methods: term used to refer to functions exposed by objects. Used to provide access to the object's functionality.
     They can also be public or private. 

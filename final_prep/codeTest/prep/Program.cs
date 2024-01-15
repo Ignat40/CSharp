@@ -36,14 +36,39 @@
             // Chapter6.Divide(17, 5, out int divRes, out double remainder);
             // Console.WriteLine($"Result of division: Quotient = {divRes}, Remainder = {remainder}");
             //Chapter6.PrintCoordinates();
-            Console.WriteLine(Chapter6.Multiply(5, 10));
-            Console.WriteLine(Chapter6.Multiply(5.5, 10.2));
+            //Console.WriteLine(Chapter6.Multiply(5, 10));
+            //Console.WriteLine(Chapter6.Multiply(5.5, 10.2));
+
+            // Chapter 8 
+            // Person person1 = new("Rick", 65);
+            // Person person2 = new("Morty", 16);
+            // Person person3 = new("Summer", 19);
+            // Person person3 = new(25);
+            // Person person4 = new("Jerry");
+            // person1.PrintDetails();
+            // person2.PrintDetails();
+            // person1.HaveBDay();
+            // person2.HaveBDay();
+            // person3.HaveBDay();
+            // person3.PrintDetails();
+            // person4.PrintDetails();
+            // MathOperations.Addition(5, 5);
+            // MathOperations.Subtraction(5, 5);
+            // MathOperations.Multiplication(5, 5);
+            // MathOperations.Divition(5, 5);
+            Library library = new();
+            library.DisplayCatalogue();
+            library.AddBook("Book69");
+            library.DisplayCatalogue();
+            library.RemoveBook();
+            library.DisplayCatalogue();
+           
 
 
 
 
 
-        }
+         }
     }
 
 }

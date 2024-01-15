@@ -1,3 +1,28 @@
-Chapter 10: Defining Class Members
-Walk through the definitions of fields, methods, and properties in a class.
-Discuss additional topics related to class members, such as hiding base class methods and partial class definitions.
+## Chapter 10: Defining Class Members
+
+1. Walk through the definitions of fields, methods, and properties in a class.
+-> Within a class definiton, you provide definition for all members of the class, 
+including fields, methods, and proeprties. All members have their own accessibility leves, 
+defined in all cases by one of the following words: 
+    1. Public: Members are accessible from any code. 
+    2. Private: Members are accessible only from code that is part of the class. 
+    3. Internal: Members are accessible only from code within the assembly(project) where they are defined
+    4. Protected: Members are accessible only from code that is part of either the class or a derived class.
+
+-> Defining Fields: 
+    ·Readonly: field can be assigned a value only during constructor execution or by initial assignment
+    ·Static: members owned by the class, rather than by object instances
+    ·Virtual: method can be overridden
+    ·Abstrsact: method must be overridden in nonabstract derived classes
+    ·Override: method overrides a blase class method 
+    ·Extern: method definition is found elsewhere
+    ·Sealed: if override is used then seald can be used to specify that no further modifications can be made
+
+-> Defining Properties:
+    · Getters & setters add security to the fiedls by Encapsulation.
+    They are accessors found within properties.
+    1. Get: used to return the property value
+    2. Set: used to assign a new value  
+
+2. Discuss additional topics related to class members, such as hiding base class methods and partial class definitions.
+->

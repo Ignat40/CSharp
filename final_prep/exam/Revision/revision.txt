@@ -48,7 +48,7 @@
 ### Chapter 9: Defining Classes
 32. Describe class definitions in C# and the role of interfaces.
 33. Explain the execution sequence of constructors and destructors.
-34. How does Visual Studio support object-oriented programming with tools like the Class View Window and Object Browser?
+34. What are the differences from Interfaces versus abstact classes?
 
 ### Chapter 10: Defining Class Members
 35. Walk through the definitions of fields, methods, and properties in a class.

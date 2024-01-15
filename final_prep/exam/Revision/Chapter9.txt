@@ -1,4 +1,48 @@
-Chapter 9: Defining Classes
-Describe class definitions in C# and the role of interfaces.
-Explain the execution sequence of constructors and destructors.
-How does Visual Studio support object-oriented programming with tools like the Class View Window and Object Browser?
+## Chapter 9: Defining Classes
+
+1. Describe class definitions in C# and the role of interfaces.
+-> A class is defined by writing the word "class" followed by ClassName. By default classes
+are declared as internal, meaning that only code in the current project will have acces to them.
+A class is a blueprint for creating objects.
+It defines the properties (fields) and behaviors (methods) that objects of the class will have. 
+
+-> Interfaces are declared in a similar to classes way but using the "interface" word not "class". 
+The access modifiers are used in the same way, setting the default one by internal. 
+Interfaces define a contract that classes can implement.
+They declare a set of methods, properties, events, or indexers that implementing classes must provide.
+Interfaces support multiple inheritance, allowing a class to implement multiple interfaces.
+
+2. Explain the execution sequence of constructors and destructors.
+-> Constructors:
+Constructors are special methods with the same name as the class.
+They are called when an object is instantiated using the new keyword.
+Constructors can be parameterized or overloaded.
+
+-> Destructors:
+In C#, destructors are represented by the ~ symbol followed by the class name.
+Destructors are called when an object is about to be destroyed by the garbage collector.
+Unlike constructors, destructors are not explicitly called and cannot be overloaded.
+
+3. Interfaces versus Abstract Classes.
+->
+    1. Abstract classes:
+        Can declare method signatures with or without implementation code.
+        Can have fields, constructors, properties, and events.
+        Support single inheritance.
+        Can provide a base implementation that derived classes can override.
+        Members can have various access modifiers.
+        Can have abstract and non-abstract (concrete) members.
+
+    2. Interfaces: 
+        Only declare method signatures, properties, events, or indexers.
+        Cannot contain implementation code.
+        Support multiple inheritance.
+        Used for defining contracts that classes must implement.
+        Interface members are public by default.
+        Cannot have fields or constructors.
+
+        !!! Abstract classes are intended for use as the base class for families
+        of objects that share certain central characteristics, such as
+        a common purpose and structure. Interfaces are intended for use by classes
+        that might differ on a far more fundamental level but can still
+        do some of the same things.
