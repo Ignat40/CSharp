@@ -1,5 +1,83 @@
-Chapter 8: Introduction to Object-Oriented Programming
-Define object-oriented programming and key concepts like objects, properties, and methods.
-Explain the life cycle of an object, including constructors and destructors.
-Discuss static and instance class members, static constructors, and static classes.
-How are object-oriented programming techniques applied in desktop applications?
+## Chapter 8: Introduction to Object-Oriented Programming
+0 . What is Object-Oriented Programming? 
+    -> With OOP techniques, you often use many more modules of code, with each offering specific functionality.
+    Also, each module can be isolated or even completely independent of the others.
+    This modular method of programming gives you much more versatility and provides more opportunity for code reuse.
+
+1. What are the four OOP principles?
+    1. Encapsulation
+    2. Abstraction
+    3. Polymorphism
+    4. Inheritance
+
+2. Define object-oriented programming and key concepts like objects, properties, and methods.
+    -> Object: Instance of a class that can have both state and behaveour, building block of an OOP application  that encapsulates part of the application. Objects in C#
+    are created from types, just like variables. The type of the object is known by a special name in OOP - its class. 
+    A class definition can be used to instantiate objets, creating a real named instance of a class. (instance of a class and object mean the same).
+    The STATE of an object is made up of the the various pieces of data contained in it. 
+
+    -> Preperties and Fields: They provide access to the data contained in an object. Both fields and properties
+    are typed, so you can store information in them as strings, ints, etc. However properties differ from fields
+    in that they don't provide direct access to data. 
+
+    -> Accessability: different sort of access permission for both fields and properties. 
+        1. Public: available to all code
+        2. Private: only to the code within the class
+        3. Protected: Only the base calss and dervied classes have access to a member. 
+        The external code does not have access. 
+        4. Virutal: The member can be overridden by the class that inherits it. 
+        5. Sealed: A sealed class cannot be used as a base class, so no derived classes are possible. 
+
+    -> Methods: term used to refer to functions exposed by objects. Used to provide access to the object's functionality.
+    They can also be public or private. 
+
+3. Explain the life cycle of an object, including constructors and destructors.
+    -> Apart from the normal state of "being in use", the lifecycle includes two important stages:
+        -> Construction: When an object is instantiated it needs to be initialized. This initialization
+        is known as construction and is carried out by a constructor function - constructor. They can also be
+        public or private. 
+
+        -> Destruction: When an object is destroyed, there area clean-up tasks to perform, such as
+        freeing memory. This is the job of a destructor function - destructor. You don't need to provide
+        any additional code. Static memebers are shared between instances of a class, 
+        so they can be thought of as global for objects of a given class.
+
+        Life Cycle of an Object:
+        1. Creation (Instantiation): An object is created using the new keyword.
+        2. Initialization (Constructors): The constructor initializes the object's state and may set initial values for properties.
+        3. Usage: The object is used, and its methods are called.
+        4. Destruction (Destructors): In C#, there's no explicit destructor. Instead, the garbage collector automatically cleans up unused objects.
+
+4. Discuss static and instance class members, static constructors, and static classes.
+    -> 
+    1. Static: Members, which can be methods, properties or fields. It is a modifier to declare a static member, which belongs to the class itself
+    Instance members are available only on object instances of a class.
+     Static members are available only through the class definition directly and are not associated with an instance.
+
+5. How are object-oriented programming techniques applied in desktop applications?
+    -> 
+    1. Interfaces: A collection of public instance (nonstatic) methods and properties
+    that are grouped together to encapsulate specific functionality. They cannot exist on their own.
+    You cannot instantiate an interface as you can a class. A class can support multiple interfaces, 
+    and multiple classes can support the same interface.
+
+    2. Inheritance: Any class may inherit from another, which means
+    that it will have all the members of the class from which it inherits. Inheritance enables you
+    to extend or create more specific classes from a single, more generic base class.
+
+    3. Polymorphism: One object can do many things. It allows objects to be treated as instances
+    of their parent class, leading to simpler code and fewer errors. 
+    4. Relationships between objects:
+        1. Containment: One Class contains another. 
+        2. Collections: One class acts as a container for multiple instances of another class. 
+        
+    5. Operator overloading: You can only overload existing C# operators in this way; you cannot create new ones. 
+        
+    6. Events: Objects can raise (and consume) events as part of their processing.
+    Events are important occurrences that you can act on in other parts of code, like (but more powerful than) exceptions.
+
+    7. Reference versus valute types: C# stores data in variables in one of two types - reference or value. 
+        1. Value types store themselves and their contnents in one place in memory called "stack". They always contain a value.
+            -> Examples: int 
+        2. Reference types hold a reference to somewhere else in memory called the heap. Can be null. 
+            -> Examples: string, every calss you create will be a reference type 
