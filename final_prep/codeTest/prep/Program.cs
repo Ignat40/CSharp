@@ -56,16 +56,21 @@
             // MathOperations.Subtraction(5, 5);
             // MathOperations.Multiplication(5, 5);
             // MathOperations.Divition(5, 5);
-            Library library = new();
-            library.DisplayCatalogue();
-            library.AddBook("Book69");
-            library.DisplayCatalogue();
-            library.RemoveBook();
-            library.DisplayCatalogue();
-           
+            // Library library = new();
+            // library.DisplayCatalogue();
+            // library.AddBook("Book69");
+            // library.DisplayCatalogue();
+            // library.RemoveBook();
+            // library.DisplayCatalogue();
 
-
-
+            // Chapter 10
+            Deck deck = new Deck();
+            deck.Shuffle();
+            for(int i = 0; i < 52; i++)
+            {
+                Card tempCard = deck.GetCard(i);
+                Console.WriteLine(tempCard.ToString());
+            }
 
 
          }
