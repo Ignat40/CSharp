@@ -64,13 +64,17 @@
             // library.DisplayCatalogue();
 
             // Chapter 10
-            Deck deck = new Deck();
-            deck.Shuffle();
-            for(int i = 0; i < 52; i++)
-            {
-                Card tempCard = deck.GetCard(i);
-                Console.WriteLine(tempCard.ToString());
-            }
+            // Deck deck = new Deck();
+            // deck.Shuffle();
+            // for(int i = 0; i < 52; i++)
+            // {
+            //     Card tempCard = deck.GetCard(i);
+            //     Console.WriteLine(tempCard.ToString());
+            // }
+
+            // Chapte 11
+            Chapter11.HashEx();
+
 
 
          }
