@@ -33,5 +33,5 @@
 
 14. What is the significance of namespaces in C#?
     -> All names defined in a .NET application, including variable names,
-     are contained in a namespace. Namespaces are hierarchical,
-      and you often must qualify names according to the namespace that contains them in order to access them.
+    are contained in a namespace. The keyword is used to declare a scope 
+    that contains a sef of related obejcts. 

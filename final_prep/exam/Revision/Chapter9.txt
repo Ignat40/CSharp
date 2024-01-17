@@ -16,6 +16,7 @@ Interfaces support multiple inheritance, allowing a class to implement multiple 
 -> Constructors:
 Constructors are special methods with the same name as the class.
 They are called when an object is instantiated using the new keyword.
+They can be used to set initial values for fields. 
 Constructors can be parameterized or overloaded.
 
 -> Destructors:

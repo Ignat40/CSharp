@@ -25,7 +25,7 @@
             //Chapter5.DaysOfTheWeek();
             //Chapter5.StringManipulation();
             //Chapter5.ReverseString();
-            
+
             // Chapter 6
             //Chapter6.Display();
             //Chapter6.Shop();
@@ -73,11 +73,50 @@
             // }
 
             // Chapte 11
-            Chapter11.HashEx();
+            //Chapter11.HashEx();
+
+            // All in One
+            // Book book = new(1234, "Sci-fi", "Harry Poter", "J. K. Rowling");
+            // DVD dvd = new("George Lucas", 2.5, "Star Wars", "George Lucas");
+            // Console.WriteLine($"Is {book.Title} available: {book.AvailabilityStatus}");
+            // Console.WriteLine($"Is {dvd.Title} available: {dvd.AvailabilityStatus}");
+            // book.CheckOut();
+            // dvd.CheckOut();
+
+            // Student student1 = new("George", 21, 69420, "Computer Science");
+            // Professor prof = new("Ye", 46, "Eveytning", 350);
+            // Console.WriteLine(student1.ToString());
+            // student1.EnrollInCourse("computer science");
+            // Console.WriteLine(prof.ToString());
+            // prof.TeachCourse("computer scince");
+
+           Product product1 = new Product("Latop", 999.99m);
+            Electronics electronic1 = new Electronics("Smartphone", 499.99m, new List<string> { "Black", "White" }, "Samsung", 12);
+            // Add stock to products
+            product1.AddStock();
+            product1.AddStock();
+            product1.AddStock();
+            product1.AddStock();
+            electronic1.AddStock();
+
+            // Show stock quantities
+            Console.WriteLine("Stock quantities for Laptop:");
+            product1.ShowQuantity();
+
+            Console.WriteLine("\nStock quantities for Smartphone:");
+            electronic1.ShowQuantity();
+
+            // Create order items
+            OrderItem orderItem1 = new ProductOrderItem("Laptop", 2, 999.99m);
+            OrderItem orderItem2 = new ElectronicsOrderItem("Smartphone", 1, 499.99m);
+
+            // Calculate total prices for order items
+            orderItem1.CalculatePrice();
+            orderItem2.CalculatePrice();
 
 
 
-         }
+        }
     }
 
 }
