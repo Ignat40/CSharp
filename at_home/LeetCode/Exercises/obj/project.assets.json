@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ignat/Desktop/OOP/Code /at_home/LeetCode/TwoSum/TwoSum/TwoSum.csproj",
-      "projectName": "TwoSum",
-      "projectPath": "/Users/ignat/Desktop/OOP/Code /at_home/LeetCode/TwoSum/TwoSum/TwoSum.csproj",
+      "projectUniqueName": "/Users/ignat/Desktop/CSharp/at_home/LeetCode/Exercises/Exercises.csproj",
+      "projectName": "Exercises",
+      "projectPath": "/Users/ignat/Desktop/CSharp/at_home/LeetCode/Exercises/Exercises.csproj",
       "packagesPath": "/Users/ignat/.nuget/packages/",
-      "outputPath": "/Users/ignat/Desktop/OOP/Code /at_home/LeetCode/TwoSum/TwoSum/obj/",
+      "outputPath": "/Users/ignat/Desktop/CSharp/at_home/LeetCode/Exercises/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ignat/.nuget/NuGet/NuGet.Config"
