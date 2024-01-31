@@ -4,8 +4,9 @@
     {
         public static void Main()
         {
-            ValidParentheses validParentheses = new();
-            Console.WriteLine(validParentheses.IsValid("(]"));
+            int[] arrayNum = {3, 2, 2, 3};
+            int val = 3;
+            Console.WriteLine(RemoveElement.RemEl(arrayNum, val));
         }
     }
 }
