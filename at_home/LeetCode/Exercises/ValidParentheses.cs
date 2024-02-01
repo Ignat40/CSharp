@@ -42,7 +42,7 @@ public class Solution {
         Stack<char> OpenBrackets = new Stack<char>();
         foreach (char c in s)
         {
-            char output;
+            ///char output;
             switch (c)
             {
                 case '{': 
