@@ -1,84 +1,58 @@
-﻿using System.Linq.Expressions;
-using System.Reflection.Metadata;
-using System.Xml.XPath;
+﻿using System.Reflection.Metadata;
+using System.Runtime.CompilerServices;
 
-namespace Lecture_1
+namespace MazeNavigation
 {
-
-    public class Program
+    class Program
     {
-        static int numberOfLoops;
-        static int numberOfIterations;
-        static int[] loops;
-        public static void Main()
+        static void Main()
         {
-            // Console.Write("N = ");
-            // numberOfLoops = int.Parse(Console.ReadLine());
-            // Console.Write("K = ");
-            // numberOfIterations = int.Parse(Console.ReadLine());
-            // loops = new int[numberOfLoops];
-            // Ex1(0);
+            MazeSolver solver = new();
+            char[,] maze = solver.ReadMaze("maze.txt", out (int, int) start);
+            List<(int, int)> path = new List<(int, int)> { };
 
-            Console.Write("N = ");
-            numberOfLoops = int.Parse(Console.ReadLine());
-            Console.Write("K = ");
-            numberOfIterations = int.Parse(Console.ReadLine());
 
-        }
 
-        public static long Fib(int number) // Example on inefficiant recursive solution
-        {
-            if (number <= 2)
-                return 1;
+            if (solver.FindPathRecursive(maze, start.Item1, start.Item2, path, direction: 'S'))
+            {
+                Console.WriteLine("Path found:");
+                AnimatePath(maze, start.Item1, start.Item2, path);
+                // foreach (var step in path)
+                // {
+                //     Console.WriteLine($"({step.Item1}, {step.Item2})");
+                // }
+            }
             else
-                return Fib(number - 1) + Fib(number - 2);
+            {
+                Console.WriteLine("No path found.");
+            }
         }
 
-        // public static long EfficientFib(int number)
-        // {
-        //     if (0 == numbers[number])
-        //     {
-        //         numbers[number] = Fib(number - 1) + Fib(number - 2);
-        //     }
-        //     return numbers[number];
-        // }
-
-        public static int RecFact(int number)
+        public static void AnimatePath(char[,] maze, int x, int y, List<(int, int)> path)
         {
-            if (number <= 0)
-                return 1;
-            else
-                return number * RecFact(number - 1);
+            foreach (var step in path)
+            {
+                Console.Clear();
+
+                for (int i = 0; i < maze.GetLength(0); i++)
+                {
+                    for (int j = 0; j < maze.GetLength(1); j++)
+                    {
+                        if (i == step.Item1 && j == step.Item2)
+                        {
+                            Console.Write("-");
+                        }
+                        else
+                        {
+                            Console.Write(maze[i, j]);
+                        }
+                    }
+                    Console.WriteLine();
+                }
+
+                Thread.Sleep(500); 
+            }
         }
-
-        //------------------  Write a program to simulate n nested loops from 1 to n. ------------------\\
-
-        // public static void Ex1(int currentLoop)
-        // {
-
-        //     if (currentLoop == numberOfLoops)
-        //     {
-        //         PrintLoops();
-        //         return;
-        //     }
-        //     for (int counter = 1; counter <= numberOfIterations; counter++)
-        //     {
-        //         loops[currentLoop] = counter;
-        //         Ex1(currentLoop + 1);
-        //     }
-
-
-        // }
-
-        // static void PrintLoops()
-        // {
-        //     for (int i = 0; i < numberOfLoops; i++)
-        //     {
-        //         Console.Write("{0} ", loops[i]);
-        //     }
-        //     Console.WriteLine();
-        // }
 
     }
-
 }
