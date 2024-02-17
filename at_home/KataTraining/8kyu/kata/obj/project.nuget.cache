@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "npJJnu+tYEpG7eukBJE0A+CUlfPCBn9xLZn4+iG9mCLqUmHeY/CBvEZcN8pmb1YnWMGY8YkSecoFoqL10lgrMQ==",
+  "dgSpecHash": "NNPMXcANiU7kBXy/yGeiSJfm8QX9B4NXuQYiGkNkQPlL6yG1KhdkfhPJFJKUZNszD7duZ6ZJ9uhAPP5pGsGD1Q==",
   "success": true,
-  "projectFilePath": "/Users/ignat/Desktop/OOP/Code /at_home/KataTraining/8kyu/kata/kata.csproj",
+  "projectFilePath": "/Users/ignat/Desktop/CSharp/at_home/KataTraining/8kyu/kata/kata.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
