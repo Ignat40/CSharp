@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ignat/Desktop/OOP/Code /at_home/KataTraining/7kyu/7kyu/7kyu.csproj",
+      "projectUniqueName": "/Users/ignat/Desktop/CSharp/at_home/KataTraining/7kyu/7kyu/7kyu.csproj",
       "projectName": "7kyu",
-      "projectPath": "/Users/ignat/Desktop/OOP/Code /at_home/KataTraining/7kyu/7kyu/7kyu.csproj",
+      "projectPath": "/Users/ignat/Desktop/CSharp/at_home/KataTraining/7kyu/7kyu/7kyu.csproj",
       "packagesPath": "/Users/ignat/.nuget/packages/",
-      "outputPath": "/Users/ignat/Desktop/OOP/Code /at_home/KataTraining/7kyu/7kyu/obj/",
+      "outputPath": "/Users/ignat/Desktop/CSharp/at_home/KataTraining/7kyu/7kyu/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ignat/.nuget/NuGet/NuGet.Config"

@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Diagnostics.Metrics;
+using System.Globalization;
 using System.Net.Http.Headers;
 using System.Reflection.Metadata;
 using System.Reflection.Metadata.Ecma335;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Timers;
+using System.Collections.Generic;
 
 namespace Kata
 {
@@ -13,11 +15,8 @@ namespace Kata
     {
         public static void Main()
         {
-            string? word = "This is an example!";
-            string? word2 = "sihT si na !elpmaxe";
+            EqSumPowDig(400, 3);
 
-            Console.WriteLine($"Reversed -> {ReverseString(word)}");
-            Console.WriteLine($"Reversed -> {ReverseString(word2)}");
 
         }
 
@@ -207,17 +206,35 @@ namespace Kata
             return floorsTravelled;
         }
 
-        public static string ReverseString(string? str)
+        public static long[] EqSumPowDig(long hmax, int exp)
         {
-            string[] word = str.Split(' ');
 
-            for (int i = 0; i < word.Length; i++)
+            List<long> listOfNumbers = new List<long>();
+            for (int i = 10; i <= hmax; i++)
             {
-                char[] charArray = word[i].ToCharArray();
-                Array.Reverse(charArray);
-                word[i] = new string(charArray);
+                string digits = i.ToString();
+                int sum = 0;
+                foreach (var d in digits)
+                {
+                    int digit = int.Parse(d.ToString());
+                    int poweredDigits = (int)Math.Pow(digit, exp);
+                    sum += poweredDigits;
+
+
+                }
+
+                if (sum == i)
+                {
+                    listOfNumbers.Add(i);
+                }
             }
-            return string.Join(" ", word);
+
+            foreach (var d in listOfNumbers)
+            {
+                Console.WriteLine(d);
+            }
+
+            return listOfNumbers.ToArray();
         }
 
     }
