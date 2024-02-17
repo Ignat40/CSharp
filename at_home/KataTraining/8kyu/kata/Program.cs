@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+using System.Diagnostics.Metrics;
 using System.Net.Http.Headers;
 using System.Reflection.Metadata;
 
@@ -9,7 +10,7 @@ namespace Kata8
     {
         public static void Main()
         {
-            Digitize(123455);
+            Console.WriteLine(ReverseString("racecaR"));
         }
 
         public static string SentanceSmash(string[] words)
@@ -64,6 +65,21 @@ namespace Kata8
                 }
             }
             return min;
+        }
+        public static string ReverseString(string str)
+        {
+            //------------------------- Ex. 4 -------------------------\\
+            string reversed = "";
+
+            for (int i = str.Length - 1; i >= 0; i--)
+            {
+                reversed += str[i];
+            }
+
+            return reversed;
+
+
+
         }
 
         public static int Max(int[] list)
