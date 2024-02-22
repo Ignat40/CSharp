@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_02/mslearn-demo/Practice.csproj": {}
+    "/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_02/AOP_Lirrary/AOP_Lirrary.csproj": {}
   },
   "projects": {
-    "/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_02/mslearn-demo/Practice.csproj": {
+    "/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_02/AOP_Lirrary/AOP_Lirrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_02/mslearn-demo/Practice.csproj",
-        "projectName": "Practice",
-        "projectPath": "/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_02/mslearn-demo/Practice.csproj",
+        "projectUniqueName": "/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_02/AOP_Lirrary/AOP_Lirrary.csproj",
+        "projectName": "AOP_Lirrary",
+        "projectPath": "/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_02/AOP_Lirrary/AOP_Lirrary.csproj",
         "packagesPath": "/Users/ignat/.nuget/packages/",
-        "outputPath": "/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_02/mslearn-demo/obj/",
+        "outputPath": "/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_02/AOP_Lirrary/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ignat/.nuget/NuGet/NuGet.Config"
