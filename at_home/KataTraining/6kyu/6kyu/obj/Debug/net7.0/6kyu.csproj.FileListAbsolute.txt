@@ -1,0 +1,15 @@
+/Users/ignat/Desktop/CSharp/at_home/KataTraining/6kyu/6kyu/bin/Debug/net7.0/6kyu
+/Users/ignat/Desktop/CSharp/at_home/KataTraining/6kyu/6kyu/bin/Debug/net7.0/6kyu.deps.json
+/Users/ignat/Desktop/CSharp/at_home/KataTraining/6kyu/6kyu/bin/Debug/net7.0/6kyu.runtimeconfig.json
+/Users/ignat/Desktop/CSharp/at_home/KataTraining/6kyu/6kyu/bin/Debug/net7.0/6kyu.dll
+/Users/ignat/Desktop/CSharp/at_home/KataTraining/6kyu/6kyu/bin/Debug/net7.0/6kyu.pdb
+/Users/ignat/Desktop/CSharp/at_home/KataTraining/6kyu/6kyu/obj/Debug/net7.0/6kyu.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/CSharp/at_home/KataTraining/6kyu/6kyu/obj/Debug/net7.0/6kyu.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/CSharp/at_home/KataTraining/6kyu/6kyu/obj/Debug/net7.0/6kyu.AssemblyInfo.cs
+/Users/ignat/Desktop/CSharp/at_home/KataTraining/6kyu/6kyu/obj/Debug/net7.0/6kyu.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/CSharp/at_home/KataTraining/6kyu/6kyu/obj/Debug/net7.0/6kyu.dll
+/Users/ignat/Desktop/CSharp/at_home/KataTraining/6kyu/6kyu/obj/Debug/net7.0/refint/6kyu.dll
+/Users/ignat/Desktop/CSharp/at_home/KataTraining/6kyu/6kyu/obj/Debug/net7.0/6kyu.pdb
+/Users/ignat/Desktop/CSharp/at_home/KataTraining/6kyu/6kyu/obj/Debug/net7.0/6kyu.genruntimeconfig.cache
+/Users/ignat/Desktop/CSharp/at_home/KataTraining/6kyu/6kyu/obj/Debug/net7.0/ref/6kyu.dll
+/Users/ignat/Desktop/CSharp/at_home/KataTraining/6kyu/6kyu/obj/Debug/net7.0/6kyu.sourcelink.json
