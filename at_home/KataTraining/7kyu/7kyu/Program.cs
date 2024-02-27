@@ -9,6 +9,7 @@ using System.Runtime.InteropServices;
 using System.Timers;
 using System.Collections.Generic;
 
+
 namespace Kata
 {
     class Program
@@ -16,7 +17,7 @@ namespace Kata
         public static void Main()
         {
 
-            TestFunciton(54);
+            Console.WriteLine(PrinterError("aaabbbbha.ljvhapsjdnav;nvadijjjm"));
 
         }
 
@@ -258,7 +259,7 @@ namespace Kata
                 }
             }
 
-            foreach(var d in divisors)
+            foreach (var d in divisors)
             {
                 Console.WriteLine(d);
             }
@@ -266,6 +267,23 @@ namespace Kata
             Console.WriteLine($"Total divisors: {divisors.Length}");
             return divisors.Length;
 
+        }
+
+        public static string PrinterError(String s)
+        {
+            int erros = 0;
+            string chars = "abcdefghijklm";
+
+            for(int i = 0; i < s.Length; i++)
+            {
+                if(!chars.Contains(s[i]))
+                {
+                    erros++; 
+                }
+            }
+
+            string errorCount = $"{erros} / {s.Length}";
+            return errorCount;
         }
 
     }
