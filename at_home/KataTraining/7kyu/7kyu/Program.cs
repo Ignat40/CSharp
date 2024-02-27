@@ -15,8 +15,8 @@ namespace Kata
     {
         public static void Main()
         {
-            EqSumPowDig(400, 3);
 
+            TestFunciton(54);
 
         }
 
@@ -235,6 +235,37 @@ namespace Kata
             }
 
             return listOfNumbers.ToArray();
+        }
+
+
+        public static int TestFunciton(int n)
+        {
+            int divisorCount = 0;
+            for (int i = 1; i <= n; i++)
+            {
+                if (n % i == 0)
+                    divisorCount++;
+            }
+
+            int[] divisors = new int[divisorCount];
+            int iterator = 0;
+            for (int i = 1; i <= n; i++)
+            {
+                if (n % i == 0)
+                {
+                    divisors[iterator] = i;
+                    iterator++;
+                }
+            }
+
+            foreach(var d in divisors)
+            {
+                Console.WriteLine(d);
+            }
+
+            Console.WriteLine($"Total divisors: {divisors.Length}");
+            return divisors.Length;
+
         }
 
     }

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "KBVRn5rrpXI4nUOCTyH+aRLhWi+OnXljwSiqHiSDTUOOUIW7/T8+w6Tz7Tco5pX4V7VYwki69RU+Zt/GCn4HGQ==",
+  "dgSpecHash": "skbY3TJ+IWrIZb0fIEYi8W6eDxG0wUIZUYICI3hLhW+CkFZU0RMJ1uvwldSMRwZhEDb5jaYlp69kN8KjgMkA7Q==",
   "success": true,
   "projectFilePath": "/Users/ignat/Desktop/CSharp/at_home/KataTraining/7kyu/7kyu/7kyu.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/ignat/.nuget/packages/microsoft.netcore.app.ref/7.0.16/microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
+    "/Users/ignat/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.16/microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512",
+    "/Users/ignat/.nuget/packages/microsoft.netcore.app.host.osx-arm64/7.0.16/microsoft.netcore.app.host.osx-arm64.7.0.16.nupkg.sha512"
+  ],
   "logs": []
 }
