@@ -1,0 +1,10 @@
+{
+  "Name": "Bob",
+  "Surname": "Bober",
+  "IsActive": false,
+  "Age": 15,
+  "Friends": [
+    "Bambina",
+    "Bobana"
+  ]
+}
