@@ -1,0 +1,15 @@
+/Users/ignat/Desktop/CSharp/at_home/Json/bin/Debug/net8.0/Json
+/Users/ignat/Desktop/CSharp/at_home/Json/bin/Debug/net8.0/Json.deps.json
+/Users/ignat/Desktop/CSharp/at_home/Json/bin/Debug/net8.0/Json.runtimeconfig.json
+/Users/ignat/Desktop/CSharp/at_home/Json/bin/Debug/net8.0/Json.dll
+/Users/ignat/Desktop/CSharp/at_home/Json/bin/Debug/net8.0/Json.pdb
+/Users/ignat/Desktop/CSharp/at_home/Json/obj/Debug/net8.0/Json.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/CSharp/at_home/Json/obj/Debug/net8.0/Json.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/CSharp/at_home/Json/obj/Debug/net8.0/Json.AssemblyInfo.cs
+/Users/ignat/Desktop/CSharp/at_home/Json/obj/Debug/net8.0/Json.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/CSharp/at_home/Json/obj/Debug/net8.0/Json.sourcelink.json
+/Users/ignat/Desktop/CSharp/at_home/Json/obj/Debug/net8.0/Json.dll
+/Users/ignat/Desktop/CSharp/at_home/Json/obj/Debug/net8.0/refint/Json.dll
+/Users/ignat/Desktop/CSharp/at_home/Json/obj/Debug/net8.0/Json.pdb
+/Users/ignat/Desktop/CSharp/at_home/Json/obj/Debug/net8.0/Json.genruntimeconfig.cache
+/Users/ignat/Desktop/CSharp/at_home/Json/obj/Debug/net8.0/ref/Json.dll
