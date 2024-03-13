@@ -1,0 +1,15 @@
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_03/Project/bin/Debug/net8.0/Project
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_03/Project/bin/Debug/net8.0/Project.deps.json
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_03/Project/bin/Debug/net8.0/Project.runtimeconfig.json
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_03/Project/bin/Debug/net8.0/Project.dll
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_03/Project/bin/Debug/net8.0/Project.pdb
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_03/Project/obj/Debug/net8.0/Project.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_03/Project/obj/Debug/net8.0/Project.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_03/Project/obj/Debug/net8.0/Project.AssemblyInfo.cs
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_03/Project/obj/Debug/net8.0/Project.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_03/Project/obj/Debug/net8.0/Project.sourcelink.json
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_03/Project/obj/Debug/net8.0/Project.dll
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_03/Project/obj/Debug/net8.0/refint/Project.dll
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_03/Project/obj/Debug/net8.0/Project.pdb
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_03/Project/obj/Debug/net8.0/Project.genruntimeconfig.cache
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_03/Project/obj/Debug/net8.0/ref/Project.dll
