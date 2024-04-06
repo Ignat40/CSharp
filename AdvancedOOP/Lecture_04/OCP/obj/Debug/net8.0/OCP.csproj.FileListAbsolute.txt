@@ -1,0 +1,15 @@
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/OCP/bin/Debug/net8.0/OCP
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/OCP/bin/Debug/net8.0/OCP.deps.json
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/OCP/bin/Debug/net8.0/OCP.runtimeconfig.json
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/OCP/bin/Debug/net8.0/OCP.dll
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/OCP/bin/Debug/net8.0/OCP.pdb
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/OCP/obj/Debug/net8.0/OCP.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/OCP/obj/Debug/net8.0/OCP.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/OCP/obj/Debug/net8.0/OCP.AssemblyInfo.cs
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/OCP/obj/Debug/net8.0/OCP.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/OCP/obj/Debug/net8.0/OCP.sourcelink.json
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/OCP/obj/Debug/net8.0/OCP.dll
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/OCP/obj/Debug/net8.0/refint/OCP.dll
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/OCP/obj/Debug/net8.0/OCP.pdb
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/OCP/obj/Debug/net8.0/OCP.genruntimeconfig.cache
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/OCP/obj/Debug/net8.0/ref/OCP.dll

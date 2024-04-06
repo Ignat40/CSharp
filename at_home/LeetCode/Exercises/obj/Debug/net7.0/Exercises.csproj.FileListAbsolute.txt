@@ -12,3 +12,4 @@
 /Users/ignat/Desktop/CSharp/at_home/LeetCode/Exercises/obj/Debug/net7.0/Exercises.pdb
 /Users/ignat/Desktop/CSharp/at_home/LeetCode/Exercises/obj/Debug/net7.0/Exercises.genruntimeconfig.cache
 /Users/ignat/Desktop/CSharp/at_home/LeetCode/Exercises/obj/Debug/net7.0/ref/Exercises.dll
+/Users/ignat/Desktop/CSharp/at_home/LeetCode/Exercises/obj/Debug/net7.0/Exercises.sourcelink.json

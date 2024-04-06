@@ -4,13 +4,10 @@
     {
         public static void Main()
         {
-            //Console.WriteLine(FindOccurence.StrStr("sadbutsad", "sad"));
-            //Console.WriteLine(ClimbingStairs.Stairs(45));
-            Console.WriteLine(Palindrome.IsPalindrome(123));
-            Console.WriteLine(Palindrome.IsPalindrome(1234));
-            Console.WriteLine(Palindrome.IsPalindrome(12321));
-            Console.WriteLine(Palindrome.IsPalindrome(5445));
-            Console.WriteLine(Palindrome.IsPalindrome(696));
+            int[] num1 = {1, 3, 5, 6};
+            Console.WriteLine(Solution35.SearchInsert(num1, 5));
+            Console.WriteLine(Solution35.SearchInsert(num1, 2));
+            Console.WriteLine(Solution35.SearchInsert(num1, 7));
             
 
         }
