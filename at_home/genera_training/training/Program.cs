@@ -2,6 +2,7 @@
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Net.Http.Headers;
+using System.Text;
 
 
 namespace Practice
@@ -10,8 +11,9 @@ namespace Practice
     {
         public static void Main()
         {
-            
-
+            //Console.WriteLine(CaesarCipherDecode("Ebiil", 3));
+            Console.WriteLine(CaesarCipherDecode("Gur", 13));
+            Console.WriteLine(CaesarCipherEncode("The", 13));
         }
 
         public static void guessTheNumber()
@@ -223,7 +225,47 @@ namespace Practice
             return sentance;
         }
 
-        
+
+        public static string CaesarCipherDecode(string message, int key)
+        {
+            StringBuilder decodedMessage = new();
+
+            foreach (var character in message)
+            {
+                if (char.IsAsciiLetter(character))
+                {
+                    char initialChar = char.IsUpper(character) ? 'A' : 'a';
+                    char decodedChar = (char)(((character - initialChar + key + 26) % 26) + initialChar);
+                    decodedMessage.Append(decodedChar);
+                }
+                else
+                    decodedMessage.Append(character);
+            }
+
+            Console.WriteLine(19 % 26);
+            return decodedMessage.ToString();
+
+        }
+
+        public static string CaesarCipherEncode(string message, int key)
+        {
+            StringBuilder encodedMessage = new();
+
+            foreach (var c in message)
+            {
+                if (char.IsAsciiLetter(c))
+                {
+                    char initialChar = char.IsUpper(c) ? 'A' : 'a';
+                    char encodedChar = (char)(((c - initialChar + key) % 26) + initialChar);
+                    encodedMessage.Append(encodedChar);
+                }
+                else
+                    encodedMessage.Append(c);
+            }
+
+            return encodedMessage.ToString();
+        }
+
 
     }
 }

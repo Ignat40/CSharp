@@ -12,3 +12,18 @@
 /Users/ignat/Desktop/OOP/Code /at_home/genera_training/training/obj/Debug/net7.0/training.pdb
 /Users/ignat/Desktop/OOP/Code /at_home/genera_training/training/obj/Debug/net7.0/training.genruntimeconfig.cache
 /Users/ignat/Desktop/OOP/Code /at_home/genera_training/training/obj/Debug/net7.0/ref/training.dll
+/Users/ignat/Desktop/CSharp/at_home/genera_training/training/obj/Debug/net7.0/training.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/CSharp/at_home/genera_training/training/obj/Debug/net7.0/training.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/CSharp/at_home/genera_training/training/obj/Debug/net7.0/training.AssemblyInfo.cs
+/Users/ignat/Desktop/CSharp/at_home/genera_training/training/obj/Debug/net7.0/training.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/CSharp/at_home/genera_training/training/obj/Debug/net7.0/training.sourcelink.json
+/Users/ignat/Desktop/CSharp/at_home/genera_training/training/obj/Debug/net7.0/training.dll
+/Users/ignat/Desktop/CSharp/at_home/genera_training/training/obj/Debug/net7.0/refint/training.dll
+/Users/ignat/Desktop/CSharp/at_home/genera_training/training/obj/Debug/net7.0/training.pdb
+/Users/ignat/Desktop/CSharp/at_home/genera_training/training/bin/Debug/net7.0/training
+/Users/ignat/Desktop/CSharp/at_home/genera_training/training/bin/Debug/net7.0/training.deps.json
+/Users/ignat/Desktop/CSharp/at_home/genera_training/training/bin/Debug/net7.0/training.runtimeconfig.json
+/Users/ignat/Desktop/CSharp/at_home/genera_training/training/bin/Debug/net7.0/training.dll
+/Users/ignat/Desktop/CSharp/at_home/genera_training/training/bin/Debug/net7.0/training.pdb
+/Users/ignat/Desktop/CSharp/at_home/genera_training/training/obj/Debug/net7.0/training.genruntimeconfig.cache
+/Users/ignat/Desktop/CSharp/at_home/genera_training/training/obj/Debug/net7.0/ref/training.dll
