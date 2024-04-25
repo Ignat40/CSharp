@@ -266,6 +266,26 @@ namespace Practice
             return encodedMessage.ToString();
         }
 
+        public static void AboutMe()
+        {
+            Dictionary<string, string> Me = new()
+            {
+                { "Name", " Ignat Bozhinov" },
+                { "I Am", "creative, determined, intelectually curious, friendly" },
+                { "WorkWith", "C# .NET, JavaScript, HTML&CSS, Python, interesting people" },
+                { "I Love", "programming, health and fintess, outdoor activities, music, videography" },
+                { "I Aspire", "to become a skilled software engineer" },
+                { "OpenTo", "meaningful challanges, connections, internships" }
+            };
+        }
+
+
+
+
+
+
+
+
 
     }
 }
