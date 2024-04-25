@@ -1,0 +1,15 @@
+/Users/ignat/Desktop/CSharp/at_home/LINQ_exercises/bin/Debug/net8.0/LINQ_exercises
+/Users/ignat/Desktop/CSharp/at_home/LINQ_exercises/bin/Debug/net8.0/LINQ_exercises.deps.json
+/Users/ignat/Desktop/CSharp/at_home/LINQ_exercises/bin/Debug/net8.0/LINQ_exercises.runtimeconfig.json
+/Users/ignat/Desktop/CSharp/at_home/LINQ_exercises/bin/Debug/net8.0/LINQ_exercises.dll
+/Users/ignat/Desktop/CSharp/at_home/LINQ_exercises/bin/Debug/net8.0/LINQ_exercises.pdb
+/Users/ignat/Desktop/CSharp/at_home/LINQ_exercises/obj/Debug/net8.0/LINQ_exercises.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/CSharp/at_home/LINQ_exercises/obj/Debug/net8.0/LINQ_exercises.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/CSharp/at_home/LINQ_exercises/obj/Debug/net8.0/LINQ_exercises.AssemblyInfo.cs
+/Users/ignat/Desktop/CSharp/at_home/LINQ_exercises/obj/Debug/net8.0/LINQ_exercises.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/CSharp/at_home/LINQ_exercises/obj/Debug/net8.0/LINQ_exercises.sourcelink.json
+/Users/ignat/Desktop/CSharp/at_home/LINQ_exercises/obj/Debug/net8.0/LINQ_exercises.dll
+/Users/ignat/Desktop/CSharp/at_home/LINQ_exercises/obj/Debug/net8.0/refint/LINQ_exercises.dll
+/Users/ignat/Desktop/CSharp/at_home/LINQ_exercises/obj/Debug/net8.0/LINQ_exercises.pdb
+/Users/ignat/Desktop/CSharp/at_home/LINQ_exercises/obj/Debug/net8.0/LINQ_exercises.genruntimeconfig.cache
+/Users/ignat/Desktop/CSharp/at_home/LINQ_exercises/obj/Debug/net8.0/ref/LINQ_exercises.dll
