@@ -1,5 +1,6 @@
 using System.Collections.Immutable;
 using System.Net;
+using System.Reflection.Metadata.Ecma335;
 using System.Xml.Schema;
 
 namespace Lecture_06;
@@ -26,8 +27,7 @@ public class LINQ
     // LINQ provides ToList() and ToArray() as 
     // a ny LINQ method that returns a sequence of elements returns it as an
 
-    static List<string> animalNames = new List<string>
-        {"rex", "sharo", "iro", "max", "benadiktas", "oliver"};
+    static List<string> animalNames = ["rex", "sharo", "iro", "max", "benadiktas", "oliver"];
 
     public IEnumerable<string> longAnimalNames =
         from name in animalNames
@@ -116,10 +116,57 @@ public class LINQ
     public IEnumerable<int> results4 = ints.TakeWhile(theInt => theInt != 4);
 
 
+    //--------------------- Exercise ----------------------------\\
+
+
     public static IEnumerable<string> GetStartThroughEnd(IEnumerable<string> words)
     {
         return words.TakeWhile(word => word != "start").SkipWhile(word => word != "end");
     }
 
+    public static string GetFirstSingleLetterWord(IEnumerable<string> words)
+    {
+        return words.First(word => word.Length == 1);
+    }
+
+    public static string GetLastWordWithHerInIt(IEnumerable<string> words)
+    {
+        return words.Last(word => word.Contains("her"));
+    }
+
+    public static string GetFifthWordIfEists(IEnumerable<string> words)
+    {
+        return words.Count() >= 5 ? words.ElementAt(4) : "0";
+    }
+
+    public static string GetLastWordIfAny(IEnumerable<string> words)
+    {
+        return words.Any() ? words.Last() : "0";
+    }
+
+    public static IEnumerable<string> GetStartToEnd(IEnumerable<string> words)
+    {
+        // Uncomment:
+        return words.SkipWhile(word => word != "start").TakeWhile(word => word != "end");
+    }
+
+    //------------------------------------------------------------------------\\
+
+
+    // .Distinct() -> returns a new sequence containing all the elements from the target sequence that are distinct from each other
+    // without repetition
+
+    // .Intersect() -> returns a new sequence containing all the elements that are common to both the target sequence and a second sequence provided as a parameter to the method.
+
+    static List<int> integers = new List<int> { 1, 2, 4, 8, 4, 2, 1 };
+    static List<int> filter = new List<int> { 1, 1, 2, 3, 5, 8 };
+    // Will contain { 1, 2, 8 }
+    IEnumerable<int> result = integers.Intersect(filter);
+
+    // .Reverse() -> self-explanatory 
+    // .OrderBy() -> sorts the elements in the source based on a key value 
+    
+
+    
 
 }
