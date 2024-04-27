@@ -1,0 +1,15 @@
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/LSP/bin/Debug/net8.0/LSP
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/LSP/bin/Debug/net8.0/LSP.deps.json
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/LSP/bin/Debug/net8.0/LSP.runtimeconfig.json
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/LSP/bin/Debug/net8.0/LSP.dll
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/LSP/bin/Debug/net8.0/LSP.pdb
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/LSP/obj/Debug/net8.0/LSP.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/LSP/obj/Debug/net8.0/LSP.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/LSP/obj/Debug/net8.0/LSP.AssemblyInfo.cs
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/LSP/obj/Debug/net8.0/LSP.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/LSP/obj/Debug/net8.0/LSP.sourcelink.json
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/LSP/obj/Debug/net8.0/LSP.dll
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/LSP/obj/Debug/net8.0/refint/LSP.dll
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/LSP/obj/Debug/net8.0/LSP.pdb
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/LSP/obj/Debug/net8.0/LSP.genruntimeconfig.cache
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/LSP/obj/Debug/net8.0/ref/LSP.dll
