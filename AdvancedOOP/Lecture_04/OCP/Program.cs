@@ -6,8 +6,8 @@ public class OCP // Open-Close Principle -> should be closed for extetion but op
         List<IPersonModel> applicants =
         [
             new PersonModel { FirstName = "Tim", LastName = "Cook"},
-            new PersonModel { FirstName = "Elon", LastName = "Musk"},
-            new PersonModel { FirstName = "Jeff", LastName = "Bezos"},
+            new ManagerModel { FirstName = "Elon", LastName = "Musk"},
+            new ExecutiveModeels { FirstName = "Jeff", LastName = "Bezos"},
         ];
 
         List<EmployeeModel> employees = [];
@@ -20,7 +20,7 @@ public class OCP // Open-Close Principle -> should be closed for extetion but op
 
         foreach(var emp in employees)
         {
-            Console.WriteLine($"{emp.FirstName} {emp.LastName}: {emp.EmailAdress}, Is Manager: {emp.IsManager}" );
+            Console.WriteLine($"{emp.FirstName} {emp.LastName}: {emp.EmailAdress}, Is Manager: {emp.IsManager}, Is CEO: {emp.IsExecutive}" );
         }
 
     }
