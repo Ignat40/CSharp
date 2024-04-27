@@ -5,8 +5,12 @@
         public static void Main()
         {
 
-            string str = "   fly me   to   the moon  ";
-            Console.WriteLine(Solution58.LenghtOfLastWord(str));
+            string haystack = "AAAXAAAAX";
+            string needle = "AAAA";
+            int lps = Solution28.StrStr(haystack, needle);
+
+            Console.WriteLine("index: " + lps);
+            
 
         }
     }
