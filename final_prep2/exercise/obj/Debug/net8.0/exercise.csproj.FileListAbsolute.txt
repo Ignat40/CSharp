@@ -1,0 +1,15 @@
+/Users/ignat/Desktop/CSharp/final_prep2/exercise/bin/Debug/net8.0/exercise
+/Users/ignat/Desktop/CSharp/final_prep2/exercise/bin/Debug/net8.0/exercise.deps.json
+/Users/ignat/Desktop/CSharp/final_prep2/exercise/bin/Debug/net8.0/exercise.runtimeconfig.json
+/Users/ignat/Desktop/CSharp/final_prep2/exercise/bin/Debug/net8.0/exercise.dll
+/Users/ignat/Desktop/CSharp/final_prep2/exercise/bin/Debug/net8.0/exercise.pdb
+/Users/ignat/Desktop/CSharp/final_prep2/exercise/obj/Debug/net8.0/exercise.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/CSharp/final_prep2/exercise/obj/Debug/net8.0/exercise.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/CSharp/final_prep2/exercise/obj/Debug/net8.0/exercise.AssemblyInfo.cs
+/Users/ignat/Desktop/CSharp/final_prep2/exercise/obj/Debug/net8.0/exercise.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/CSharp/final_prep2/exercise/obj/Debug/net8.0/exercise.sourcelink.json
+/Users/ignat/Desktop/CSharp/final_prep2/exercise/obj/Debug/net8.0/exercise.dll
+/Users/ignat/Desktop/CSharp/final_prep2/exercise/obj/Debug/net8.0/refint/exercise.dll
+/Users/ignat/Desktop/CSharp/final_prep2/exercise/obj/Debug/net8.0/exercise.pdb
+/Users/ignat/Desktop/CSharp/final_prep2/exercise/obj/Debug/net8.0/exercise.genruntimeconfig.cache
+/Users/ignat/Desktop/CSharp/final_prep2/exercise/obj/Debug/net8.0/ref/exercise.dll
