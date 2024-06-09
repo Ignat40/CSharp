@@ -1,0 +1,15 @@
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/DIP/bin/Debug/net8.0/DIP
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/DIP/bin/Debug/net8.0/DIP.deps.json
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/DIP/bin/Debug/net8.0/DIP.runtimeconfig.json
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/DIP/bin/Debug/net8.0/DIP.dll
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/DIP/bin/Debug/net8.0/DIP.pdb
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/DIP/obj/Debug/net8.0/DIP.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/DIP/obj/Debug/net8.0/DIP.AssemblyInfoInputs.cache
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/DIP/obj/Debug/net8.0/DIP.AssemblyInfo.cs
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/DIP/obj/Debug/net8.0/DIP.csproj.CoreCompileInputs.cache
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/DIP/obj/Debug/net8.0/DIP.sourcelink.json
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/DIP/obj/Debug/net8.0/DIP.dll
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/DIP/obj/Debug/net8.0/refint/DIP.dll
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/DIP/obj/Debug/net8.0/DIP.pdb
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/DIP/obj/Debug/net8.0/DIP.genruntimeconfig.cache
+/Users/ignat/Desktop/CSharp/AdvancedOOP/Lecture_04/DIP/obj/Debug/net8.0/ref/DIP.dll
