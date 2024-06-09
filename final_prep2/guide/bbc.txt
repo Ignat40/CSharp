@@ -1,0 +1,282 @@
+Sure, here's a mock exam based on the study guide and notes you provided, maintaining a similar question format.
+
+### Mock Exam: Advanced OOP in C#
+
+#### Section 1: Recursion
+
+1. Which of the following best describes the base case in a recursive function?
+    - a) The point at which the function calls itself.
+    - b) The condition that terminates the recursion.
+    - c) A loop within the recursive function.
+    - d) The variable that changes with each recursive call.
+    - **Answer:** b
+
+2. What is the result of the following code when factorial(4) is called?
+    ```csharp
+    int factorial(int n) {
+        if (n <= 1) return 1;
+        return n * factorial(n - 1);
+    }
+    ```
+    - a) 6
+    - b) 12
+    - c) 24
+    - d) 30
+    - **Answer:** c
+
+3. In recursion, what is a stack overflow error?
+    - a) An error when too many loops are nested.
+    - b) An error when too much memory is used.
+    - c) An error when the recursion depth exceeds the stack size.
+    - d) An error when a function calls another function.
+    - **Answer:** c
+
+4. Consider the function call sequence for `countDown(3)` given the code below:
+    ```csharp
+    void countDown(int n) {
+        if (n == 0) return;
+        Console.WriteLine(n);
+        countDown(n - 1);
+    }
+    ```
+    How many times is `countDown` called?
+    - a) 2
+    - b) 3
+    - c) 4
+    - d) 5
+    - **Answer:** c
+
+5. Which of the following is a common mistake in recursive programming?
+    - a) Not having a return statement.
+    - b) Using iteration instead of recursion.
+    - c) Not defining the base case correctly.
+    - d) Using too many local variables.
+    - **Answer:** c
+
+#### Section 2: Practical Problem Solving
+
+1. During the SDLC design phase, which of the following is created?
+    - a) Application code
+    - b) User stories
+    - c) Database schemas
+    - d) System testing scripts
+    - **Answer:** c
+
+2. What does algorithmic decomposition help with in problem-solving?
+    - a) Merging multiple solutions into one.
+    - b) Breaking down complex problems into simpler parts.
+    - c) Writing code without debugging.
+    - d) Designing complex user interfaces.
+    - **Answer:** b
+
+3. Given the following function, how would you apply abstraction?
+    ```csharp
+    public bool IsPositive(int number) {
+        return number > 0;
+    }
+    ```
+    - a) Add a check for negative numbers.
+    - b) Simplify the function to always return true.
+    - c) Create a more general function to check any number property.
+    - d) Leave it unchanged.
+    - **Answer:** c
+
+4. For finding the minimum value in an array, what is the initial step according to PADM?
+    - a) Start coding immediately.
+    - b) Analyze the problem and requirements.
+    - c) Implement the function first.
+    - d) Write test cases.
+    - **Answer:** b
+
+5. How can you enhance the following code snippet to improve performance and readability?
+    ```csharp
+    public int FindMin(int[] numbers) {
+        int min = numbers[0];
+        for (int i = 1; i < numbers.Length; i++) {
+            if (numbers[i] < min) {
+                min = numbers[i];
+            }
+        }
+        return min;
+    }
+    ```
+    - a) Add more conditions to the loop.
+    - b) Use a built-in method for finding the minimum value.
+    - c) Convert the loop to a while loop.
+    - d) Document and optimize the code.
+    - **Answer:** d
+
+#### Section 3: Collaborative Coding
+
+1. To initialize a new Git repository and stage initial files, which commands do you use?
+    - a)
+    ```bash
+    git clone [url]
+    git add .
+    git commit -m "Initial commit"
+    ```
+    - b)
+    ```bash
+    git init
+    git add .
+    git commit -m "Initial commit"
+    ```
+    - c)
+    ```bash
+    git status
+    git add .
+    git commit -m "Initial commit"
+    ```
+    - d)
+    ```bash
+    git init
+    git commit -m "Initial commit"
+    git add .
+    ```
+    - **Answer:** b
+
+2. Which command stages all modified files for commit?
+    - a) git status
+    - b) git add .
+    - c) git commit -m "Add changes"
+    - d) git init
+    - **Answer:** b
+
+3. After staging changes, which command commits them to the local repository?
+    - a) git add .
+    - b) git status
+    - c) git commit -m "Initial commit"
+    - d) git push -m "Initial commit"
+    - **Answer:** c
+
+4. To stage specific modified files and commit them, which sequence is correct?
+    - a)
+    ```bash
+    git add .
+    git commit -m "Update contact and program logic"
+    ```
+    - b)
+    ```bash
+    git commit -m "Update contact and program logic"
+    git add .
+    ```
+    - c)
+    ```bash
+    git add Contact.cs Program.cs
+    git commit -m "Update contact and program logic"
+    ```
+    - d)
+    ```bash
+    git status
+    git commit -m "Update contact and program logic"
+    ```
+    - **Answer:** c
+
+5. Before merging a feature branch into the main branch, what commands should you run to ensure it is up to date?
+    - a)
+    ```bash
+    git checkout main
+    git merge feature-branch
+    git push origin main
+    ```
+    - b)
+    ```bash
+    git checkout feature-branch
+    git pull origin main
+    git checkout main
+    git merge feature-branch
+    ```
+    - c)
+    ```bash
+    git pull origin feature-branch
+    git checkout main
+    git merge feature-branch
+    ```
+    - d)
+    ```bash
+    git fetch feature-branch
+    git checkout main
+    git merge feature-branch
+    ```
+    - **Answer:** b
+
+#### Section 4: Unit Testing
+
+1. In xUnit, which attribute is used to define a test method?
+    - a) [Test]
+    - b) [Fact]
+    - c) [InlineData]
+    - d) [SetUp]
+    - **Answer:** b
+
+2. What is the main purpose of the Arrange-Act-Assert pattern?
+    - a) Ensure tests are isolated.
+    - b) Structure tests into setup, execution, and verification phases.
+    - c) Minimize test writing time.
+    - d) Ensure all code paths are covered.
+    - **Answer:** b
+
+3. In a unit test, what step represents the "Act" phase?
+    - a) Executing the method under test.
+    - b) Verifying the outcome.
+    - c) Initializing objects.
+    - d) Examining dependency behavior.
+    - **Answer:** a
+
+4. Which xUnit feature validates method behavior with multiple inputs?
+    - a) [Fact] with multiple methods
+    - b) [Theory] with [InlineData]
+    - c) [Fact] with a loop
+    - d) [Fact] with [Theory]
+    - **Answer:** b
+
+5. Given the following method, which xUnit test follows the Arrange-Act-Assert pattern correctly?
+    ```csharp
+    public int Multiply(int a, int b) {
+        return a * b;
+    }
+    ```
+    - a) Arrange: var a = 2; var b = 3; Act: var result = a * b; Assert: Assert.Equal(6, result);
+    - b) Arrange: var a = 3; var b = 2; Act: var result = Multiply(a, b); Assert: Assert.Equal(6, a * b);
+    - c) Arrange: var a = 3; var b = 3; Act: var result = Multiply(a, b); Assert: Assert.Equal(9, result);
+    - d) Arrange: var a = 4; var b = 1; Act: var result = Multiply(4, 1); Assert: Assert.Equal(4, result);
+    - **Answer:** c
+
+6. What is the primary difference between a mock and a stub?
+    - a) A mock is a replacement for an existing dependency, while a stub decides test outcomes.
+    - b) A mock decides test outcomes, while a stub is a replacement for a dependency.
+    - c) A stub is a type of mock.
+    - d) There is no difference.
+    - **Answer:** b
+
+7. Which of the following is an example of a magic string in a unit test?
+    - a) Assert.Equal(3, result);
+    - b) var stringCalculator = new StringCalculator();
+    - c) const string MAXIMUM_RESULT = "1001";
+    - d) Action actual = () => stringCalculator.Add("1001");
+    - **Answer:** d
+
+8. Which practice should be avoided when writing unit tests?
+    - a) Using logic in tests
+    - b) Using
+
+ descriptive test names
+    - c) Testing one condition per test
+    - d) Mocking dependencies
+    - **Answer:** a
+
+9. Which test framework is not compatible with .NET?
+    - a) NUnit
+    - b) MSTest
+    - c) JUnit
+    - d) xUnit
+    - **Answer:** c
+
+10. Which is a benefit of using dependency injection for unit testing?
+    - a) Reduces test code complexity
+    - b) Increases code coupling
+    - c) Enables easy replacement of dependencies with mocks or stubs
+    - d) Ensures that all dependencies are always available
+    - **Answer:** c
+
+These questions cover recursion, practical problem-solving, collaborative coding with Git, and unit testing. Feel free to customize the mock exam further to better match your study materials and focus areas.
