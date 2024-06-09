@@ -1,0 +1,3 @@
+Hello, this is file1.
+We are learning how to use file compression in C#.
+It's quite interesting to see how data can be compressed and decompressed using Zip files.

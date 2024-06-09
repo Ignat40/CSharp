@@ -1,0 +1,5 @@
+Welcome to the FileStream practice exercise.
+This file contains several lines of text.
+Each line will be read, reversed, and written to another file.
+Reversing the order of characters in a file is a common task in file manipulation exercises.
+This exercise helps understand the use of FileStream in reading and writing files.

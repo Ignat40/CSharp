@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ignat/Desktop/CSharp/final_prep2/avalonia/Test/Test.csproj": {}
+  },
+  "projects": {
+    "/Users/ignat/Desktop/CSharp/final_prep2/avalonia/Test/Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ignat/Desktop/CSharp/final_prep2/avalonia/Test/Test.csproj",
+        "projectName": "Test",
+        "projectPath": "/Users/ignat/Desktop/CSharp/final_prep2/avalonia/Test/Test.csproj",
+        "packagesPath": "/Users/ignat/.nuget/packages/",
+        "outputPath": "/Users/ignat/Desktop/CSharp/final_prep2/avalonia/Test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ignat/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.0.10, )"
+            },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[11.0.10, )"
+            },
+            "Avalonia.Diagnostics": {
+              "target": "Package",
+              "version": "[11.0.10, )"
+            },
+            "Avalonia.Fonts.Inter": {
+              "target": "Package",
+              "version": "[11.0.10, )"
+            },
+            "Avalonia.ReactiveUI": {
+              "target": "Package",
+              "version": "[11.0.10, )"
+            },
+            "Avalonia.Themes.Fluent": {
+              "target": "Package",
+              "version": "[11.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
